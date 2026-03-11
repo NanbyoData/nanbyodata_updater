@@ -5,8 +5,6 @@ services:
       context: .
       dockerfile: Dockerfile.robot
     user: "${UID}:${GID}"
-    env_file:
-      - env/.env
     volumes:
       - ./data:/data
     networks:
