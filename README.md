@@ -1,14 +1,51 @@
 # nanbyodata_updater
 
-## 更新手順
+## Overview
 
-### nandoオントロジー
+* This repository contains tools for updating the **MySQL database** and **NANDO ontology** used in NanbyoData.
+* For the NanbyoData Virtuoso update tool, please refer to [this link](https://github.com/NanbyoData/nanbyodata_virtuoso_updater).
 
-* ここで作成されたNANDOオントロジーは次のように使用する
-    * NanbyoDataのdownload対象のファイル
-    * `https://github.com/aidrd/nanbyodata`のontology配下にpush
-    * PubCaseFinderの`OntoTermNANDOInformation`のデータソース
-* 準備物
-    * nando.ttl
-* 手順
-    * https://docs.google.com/spreadsheets/d/12JjDHkd4k9oI5Xme_Isyg9nqUsHU1PZvmvz5DQPKNZc/edit?gid=1150718828#gid=1150718828
+## Prerequisites
+
+* **Docker** / **Docker Compose**
+* Appropriate internal network access for data synchronization.
+
+## Setup & Usage
+
+### 1. Environment Configuration
+
+Initialize your environment variables by copying the template file and editing it with your local settings.
+
+```bash
+cp template.env .env
+vi .env
+```
+
+2. Building Containers  
+Build the required Docker images for each environment. Note that the MySQL build requires local user IDs for volume permission consistency.
+
+```bash
+# Perl environment
+docker build -f Dockerfile.perl .
+
+# Python environment
+docker build -f Dockerfile.python .
+
+# ROBOT (Ontology processing)
+docker build -f Dockerfile.robot .
+
+# MySQL (Database)
+docker build \
+  --build-arg UID=$(id -u) \
+  --build-arg GID=$(id -g) \
+  -f Dockerfile.mysql .
+```
+
+3. Execution and Operation  
+Operational workflows are detailed in the following documentation:  
+
+* [MySQL Update Procedure](https://docs.google.com/spreadsheets/d/12JjDHkd4k9oI5Xme_Isyg9nqUsHU1PZvmvz5DQPKNZc/edit?gid=1150718828#gid=1150718828)
+* [NANDO Ontology Update Procedure](https://docs.google.com/spreadsheets/d/12JjDHkd4k9oI5Xme_Isyg9nqUsHU1PZvmvz5DQPKNZc/edit?gid=1914005581#gid=1914005581)  
+
+[!IMPORTANT]  
+If you are unable to access the documentation links above, please contact the DBCLS team immediately for access.  
