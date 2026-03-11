@@ -52,7 +52,7 @@ services:
       context: .
       dockerfile: Dockerfile.perl
     image: nanbyodata-perl-update
-    # user: "${UID}:${GID}"
+    user: "${UID}:${GID}"
     volumes:
       - ./bin/perl:/usr/src/app
       - ./data:/data
@@ -61,7 +61,7 @@ services:
       - DB_NAME=${MYSQL_DATABASE}
       - DB_USER=${MYSQL_USER}
       - DB_PASS=${MYSQL_PASSWORD}
-      - DB_HOST=${DB_HOST}
+      - DB_HOST=${DB_HOST:-mysql}
       - DB_PORT=${MYSQL_PORT}
     networks:
       - nanbyodata_updater
