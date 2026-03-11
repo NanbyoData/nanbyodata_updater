@@ -26,16 +26,16 @@ Build the required Docker images for each environment. Note that the MySQL build
 
 ```bash
 # Perl environment
-docker build -f Dockerfile.perl .
+docker build -t <image_name> -f Dockerfile.perl .
 
 # Python environment
-docker build -f Dockerfile.python .
+docker build -t <image_name> -f Dockerfile.python .
 
 # ROBOT (Ontology processing)
-docker build -f Dockerfile.robot .
+docker build -t <image_name> -f Dockerfile.robot .
 
 # MySQL (Database)
-docker build \
+docker build -t <image_name> \
   --build-arg UID=$(id -u) \
   --build-arg GID=$(id -g) \
   -f Dockerfile.mysql .
