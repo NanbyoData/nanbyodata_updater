@@ -1,5 +1,4 @@
-*.env
-env/*
+.env
 data/*
 !data/NANDO/owl2xhtml.xsk
 mysql/data/*
