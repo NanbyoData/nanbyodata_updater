@@ -1,6 +1,7 @@
 services:
   robot:
     container_name: nanbyodata-robot-update
+    image: nanbyodata-robot-update
     build:
       context: .
       dockerfile: Dockerfile.robot
@@ -11,10 +12,10 @@ services:
       - nanbyodata_updater
   python:
     container_name: nanbyodata-python-update
+    image: nanbyodata-python-update
     build:
       context: .
       dockerfile: Dockerfile.python
-    image: nanbyodata-python-update
     user: "${UID}:${GID}"
     volumes:
       - ./bin/python:/usr/src/app
@@ -23,9 +24,13 @@ services:
       - nanbyodata_updater
   mysql:
     container_name: ${CONTAINER_NAME_MYSQL:-nanbyodata-mysql}
+    image: nanbyodata-mysql-update
     build:
       context: .
       dockerfile: Dockerfile.mysql
+      args:
+        UID: "${UID}"
+        GID: "${GID}"
     user: "${UID}:${GID}"
     ports:
       - ${MYSQL_PORT:-3306}:3306
@@ -44,10 +49,10 @@ services:
       - nanbyodata_updater
   perl:
     container_name: nanbyodata-perl-update
+    image: nanbyodata-perl-update
     build:
       context: .
       dockerfile: Dockerfile.perl
-    image: nanbyodata-perl-update
     user: "${UID}:${GID}"
     volumes:
       - ./bin/perl:/usr/src/app
