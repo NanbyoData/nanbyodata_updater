@@ -8,7 +8,6 @@
 ## Prerequisites
 
 * **Docker** / **Docker Compose**
-* Appropriate internal network access for data synchronization.
 
 ## Setup & Usage
 
@@ -45,4 +44,4 @@ Operational workflows are detailed in the following documentation:
 * [NANDO Ontology Update Procedure](https://docs.google.com/spreadsheets/d/12JjDHkd4k9oI5Xme_Isyg9nqUsHU1PZvmvz5DQPKNZc/edit?gid=1914005581#gid=1914005581)  
 
 [!IMPORTANT]  
-If you are unable to access the documentation links above, please contact the DBCLS team immediately for access.  
+If you are unable to access the documentation links above, please contact the DBCLS team.  
