@@ -8,7 +8,6 @@ services:
     env_file:
       - env/.env
     volumes:
-      # - ./dictionary:/dictionary
       - ./data:/data
     networks:
       - nanbyodata_updater
@@ -21,7 +20,6 @@ services:
     user: "${UID}:${GID}"
     volumes:
       - ./bin/python:/usr/src/app
-      # - ./dictionary:/dictionary
       - ./data:/data
     networks:
       - nanbyodata_updater
@@ -56,7 +54,6 @@ services:
     volumes:
       - ./bin/perl:/usr/src/app
       - ./data:/data
-      - ./dictionary:/dictionary
     environment:
       - DB_NAME=${MYSQL_DATABASE}
       - DB_USER=${MYSQL_USER}
