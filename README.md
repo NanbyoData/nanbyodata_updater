@@ -20,7 +20,7 @@ cp template.env .env
 vi .env
 ```
 
-2. Building Containers  
+### 2. Building Containers  
 Build the required Docker images for each environment. Note that the MySQL build requires local user IDs for volume permission consistency.
 
 ```bash
@@ -37,7 +37,7 @@ docker compose build robot
 docker compose build mysql
 ```
 
-3. Execution and Operation  
+### 3. Execution and Operation  
 Operational workflows are detailed in the following documentation:  
 
 * [MySQL Update Procedure](https://docs.google.com/spreadsheets/d/12JjDHkd4k9oI5Xme_Isyg9nqUsHU1PZvmvz5DQPKNZc/edit?gid=1150718828#gid=1150718828)
