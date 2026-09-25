@@ -1,0 +1,3674 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix hum: <https://humandbs.dbcls.jp/> .
+@prefix nando: <http://nanbyodata.jp/ontology/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sio: <http://semanticscience.org/resource/> .
+
+hum:HUM0491 a sio:SIO_000756 ;
+    rdfs:label "Elucidating molecular mechanisms of allergy"@en ;
+    dc:type "NGS (scRNA-seq, scRNA-TCR-seq, scATAC-RNA-seq, CITE-seq)"@en ;
+    dcterms:accessRights "Unrestricted-access Controlled-access (Type I)"@en .
+
+hum:hum0001 a sio:SIO_000756 ;
+    rdfs:label "Sequence Data of a SCA31 Patient"@en,
+        "SCA31罹患患者のゲノム解析データ"@ja ;
+    dc:type "Single Patient NGS (WGS)"@en,
+        "NGS （WGS）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0001" ;
+    rdfs:seeAlso nando:NANDO_1200044 .
+
+hum:hum0003 a sio:SIO_000756 ;
+    rdfs:label "関節リウマチ患者及び健常人における HLA領域の塩基配列比較解析"@ja ;
+    dc:type "NGS （Target Capture）"@ja ;
+    dcterms:accessRights "非制限公開"@ja ;
+    dcterms:identifier "hum0003" .
+
+hum:hum0004 a sio:SIO_000756 ;
+    rdfs:label "Molecular Epidemiological Study of Somatic Mutation Profiles of EGFR Mutation Positive Lung Adenocarcinoma"@en,
+        "上皮成長因子受容体遺伝子異変を有する 肺腺癌の体細胞性遺伝子変異プロファイル 解明のための分子疫学的研究"@ja ;
+    dc:type "NGS (Exome)"@en,
+        "NGS （Exome）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0004" .
+
+hum:hum0005 a sio:SIO_000756 ;
+    rdfs:label "Genetic Analysis of Hearing Loss and Its Clinical Application"@en,
+        "難聴の遺伝子解析と臨床応用に関する研究"@ja ;
+    dc:type "NGS (Target Capture)"@en,
+        "NGS （Target Capture）"@ja ;
+    dcterms:accessRights "Unrestricted-access Controlled-access (Type I)"@en,
+        "非制限公開 制限（Type I）"@ja ;
+    dcterms:identifier "hum0005" ;
+    rdfs:seeAlso nando:NANDO_1200941 .
+
+hum:hum0006 a sio:SIO_000756 ;
+    rdfs:label "Genomic and Genetic Analysis of Brain Tumors and Analysis of Their Clinicopathological Significance"@en,
+        "脳腫瘍のゲノム・遺伝子解析と その臨床病理学的意義の解明"@ja ;
+    dc:type "NGS (Exome, RNA-seq, Target Capture) Methylation array"@en,
+        "NGS （Exome、RNA-seq、Target Capture） メチル化アレイ"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0006" ;
+    rdfs:seeAlso nando:NANDO_2200089 .
+
+hum:hum0007 a sio:SIO_000756 ;
+    rdfs:label "Gene Expression of Human Th17 Cells  Before and After Activation"@en,
+        "ヒトTh17細胞の活性化前後の遺伝子発現"@ja ;
+    dc:type "NGS (RNA-seq)"@en,
+        "NGS （RNA-seq）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0007" .
+
+hum:hum0008 a sio:SIO_000756 ;
+    rdfs:label "Research for genetic causes and mechanisms of Hirschsprung's $00A0"@en,
+        "ヒルシュスプルング病および ヒルシュスプルング類縁疾患の 遺伝要因および発症機構解明に関する研究"@ja ;
+    dc:type "NGS (Exome)"@en,
+        "NGS （Exome）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0008" ;
+    rdfs:seeAlso nando:NANDO_1200903,
+        nando:NANDO_2200945 .
+
+hum:hum0009 a sio:SIO_000756 ;
+    rdfs:label "DNA Methylation Analysis of Early Human Embryos"@en,
+        "ヒト初期発生にかかわる細胞の DNAメチル化解析基盤研究"@ja ;
+    dc:type "NGS (PBAT-seq)"@en,
+        "NGS （PBAT-seq）"@ja ;
+    dcterms:accessRights "Unrestricted-access"@en,
+        "非制限公開"@ja ;
+    dcterms:identifier "hum0009" .
+
+hum:hum0010 a sio:SIO_000756 ;
+    rdfs:label "Research for candidate genes of splenic epidermoid cyst."@en,
+        "脾類上皮嚢腫関連遺伝子の探索"@ja ;
+    dc:type "NGS (Exome)"@en,
+        "NGS （Exome）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0010" .
+
+hum:hum0011 a sio:SIO_000756 ;
+    rdfs:label "Integrated hepatitis B virus is epigenomically regulated by the methylation status of the human genome"@en,
+        "B型肝炎ウイルスのヒトゲノム内組み込み によるエピジェネティックな修飾"@ja ;
+    dc:type "NGS (Target Capture)"@en,
+        "NGS （Target Capture）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0011" .
+
+hum:hum0012 a sio:SIO_000756 ;
+    rdfs:label "Nagahama Zero-ji Preventive Cohort Project"@en,
+        "ながはま0次コホート事業"@ja ;
+    dc:type "SNP-chip Control Set Cohort"@en,
+        "SNP-chip"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0012" .
+
+hum:hum0013 a sio:SIO_000756 ;
+    rdfs:label "Japan PGx Data Science Consortium Database"@en,
+        "日本PGxデータサイエンスコンソーシアム PGx研究のための日本人健常者2994名の SNP遺伝子型データ"@ja ;
+    dc:type "SNP-chip Control Set"@en,
+        "SNP-chip"@ja ;
+    dcterms:accessRights "Unrestricted-access"@en,
+        "非制限公開"@ja ;
+    dcterms:identifier "hum0013" .
+
+hum:hum0014 a sio:SIO_000756 ;
+    rdfs:label "Bio Bank Japan project"@en,
+        "オーダーメイド医療の実現プログラム"@ja ;
+    dc:type "SNP-chip Case-Control NGS (WGS, Target Capture)"@en,
+        "SNP-chip NGS （WGS、Target Capture）"@ja ;
+    dcterms:accessRights "Unrestricted-access Controlled-access (Type I)"@en,
+        "非制限公開 制限（Type I）"@ja ;
+    dcterms:identifier "hum0014" ;
+    rdfs:seeAlso nando:NANDO_1200002,
+        nando:NANDO_2100004,
+        nando:NANDO_2200226,
+        nando:NANDO_2200248,
+        nando:NANDO_2200461 .
+
+hum:hum0015 a sio:SIO_000756 ;
+    rdfs:label "Construction of the Whole-genome$00A0Reference Panel of 3552 Japanese Individuals"@en,
+        "ヒト全ゲノム解析に基づく高精度の 住民ゲノム参照パネルの作成"@ja ;
+    dc:type "NGS (WGS)"@en,
+        "NGS （WGS）"@ja ;
+    dcterms:accessRights "Unrestricted-access"@en,
+        "非制限公開"@ja ;
+    dcterms:identifier "hum0015" .
+
+hum:hum0016 a sio:SIO_000756 ;
+    rdfs:label "Epigenome analysis of proteins expressed in human testis"@en,
+        "精巣に発現するタンパク質群の  ヒト精子細胞における発現及び染色体局在解析"@ja ;
+    dc:type "NGS (ChIP-seq, RNA-seq)"@en,
+        "NGS （RNA-seq、ChIP-seq）"@ja ;
+    dcterms:accessRights "Unrestricted-access"@en,
+        "非制限公開"@ja ;
+    dcterms:identifier "hum0016" .
+
+hum:hum0017 a sio:SIO_000756 ;
+    rdfs:label "Exome sequencing of primary central nervous system lymphoma"@en,
+        "中枢神経原発悪性リンパ腫のエクソーム解析"@ja ;
+    dc:type "NGS (Exome, RNA-seq)"@en,
+        "NGS （Exome、RNA-seq）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0017" .
+
+hum:hum0018 a sio:SIO_000756 ;
+    rdfs:label "Genetic analysis in neurodegenerative disorders"@en,
+        "神経筋変性疾患の遺伝子解析研究"@ja ;
+    dc:type "NGS (Exome, WGS, RNA-seq)"@en,
+        "NGS （Exome、WGS、RNA-seq）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0018" ;
+    rdfs:seeAlso nando:NANDO_1200002,
+        nando:NANDO_1200016,
+        nando:NANDO_1200034,
+        nando:NANDO_1200052,
+        nando:NANDO_1200549 .
+
+hum:hum0019 a sio:SIO_000756 ;
+    rdfs:label "Systematic identification of long non-coding RNAs potentially involved in gastrointestinal cancer"@en,
+        "消化器癌の発癌や進展に 深く関与しうる遺伝子、並びに 非コードRNAの量的・質的な異常の探索"@ja ;
+    dc:type "NGS (RNA-seq) Tumor vs. Matched-Normal"@en,
+        "NGS （RNA-seq）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0019" .
+
+hum:hum0020 a sio:SIO_000756 ;
+    rdfs:label "Genetic Analysis in Amyotrophic Lateral Sclerosis"@en,
+        "筋萎縮性側索硬化症の遺伝子解析研究"@ja ;
+    dc:type "NGS (Exome)"@en,
+        "NGS （Exome）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0020" ;
+    rdfs:seeAlso nando:NANDO_1200002 .
+
+hum:hum0021 a sio:SIO_000756 ;
+    rdfs:label "Genetic Analysis in Psychiatric Disorders"@en,
+        "精神神経疾患の原因解明および 診断法・治療法の開発に関する研究"@ja ;
+    dc:type "NGS (Exome)"@en,
+        "NGS （Exome）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0021" .
+
+hum:hum0022 a sio:SIO_000756 ;
+    rdfs:label "Analysis of the Molecular Mechanism for Developing Donor-Origin Leukemia after Allogeneic Stem Cell Transplantation."@en,
+        "同種造血幹細胞移植後 ドナー由来白血病発症にかかわる 分子機構の解析"@ja ;
+    dc:type "NGS (Exome)"@en,
+        "NGS （Exome）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0022" ;
+    rdfs:seeAlso nando:NANDO_2100002 .
+
+hum:hum0023 a sio:SIO_000756 ;
+    rdfs:label "Genetic Analysis in Lifestyle-Related Disease, Arteriosclerotic Disease, and  Aging-Related Diseases"@en,
+        "生活習慣病、動脈硬化性疾患、ならびに 抗加齢に関する遺伝疫学研究"@ja ;
+    dc:type "NGS (Exome)"@en,
+        "NGS （Exome）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0023" .
+
+hum:hum0024 a sio:SIO_000756 ;
+    rdfs:label "Comprehensive Analysis of Genetic Alterations in Hematological Malignancies"@en,
+        "造血器腫瘍における 遺伝子異常の網羅的解析"@ja ;
+    dc:type "NGS (Exome)"@en,
+        "NGS （Exome）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0024" ;
+    rdfs:seeAlso nando:NANDO_2200014,
+        nando:NANDO_2200015,
+        nando:NANDO_2200019 .
+
+hum:hum0027 a sio:SIO_000756 ;
+    rdfs:label "Identification of genetic polymorphism on aggressive periodontitis"@en,
+        "侵襲性歯周炎のヒト全ゲノム解析と遺伝子多型解析"@ja ;
+    dc:type "NGS (Exome)"@en,
+        "NGS （Exome）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0027" .
+
+hum:hum0028 a sio:SIO_000756 ;
+    rdfs:label "Biobank Japan Project"@en,
+        "オーダーメイド医療の実現プログラム"@ja ;
+    dc:type "SNP-chip"@en,
+        "SNP-chip"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0028" .
+
+hum:hum0029 a sio:SIO_000756 ;
+    rdfs:label "Study of Genome Polymorphism/Variation on Stevens-Johnson Syndrome"@en,
+        "Stevens-Johnson症候群に対する 遺伝子多型解析"@ja ;
+    dc:type "SNP-chip Case-Control"@en,
+        "SNP-chip"@ja ;
+    dcterms:accessRights "Unrestricted-access"@en,
+        "非制限公開"@ja ;
+    dcterms:identifier "hum0029" ;
+    rdfs:seeAlso nando:NANDO_1200245,
+        nando:NANDO_1200246,
+        nando:NANDO_2201006,
+        nando:NANDO_2201007 .
+
+hum:hum0030 a sio:SIO_000756 ;
+    rdfs:label "The Molecular Biological Analysis about Occurrence and Malignant Transformation in gynecological carcinogenesis"@en,
+        "婦人科臓器に発生する悪性腫瘍の発症に関連する分子生物学的異常の検索"@ja ;
+    dc:type "SNP-chip CNV Analysis NGS (Exome, RNA-seq) Methylation array Expression array"@en,
+        "SNP-chip NGS （Exome、RNA-seq） メチル化アレイ ヒト全ゲノム発現アレイ"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0030" .
+
+hum:hum0031 a sio:SIO_000756 ;
+    rdfs:label "Constructing database of magnetic resonance imaging of the brain and the ancillary clinical information for multisite collaboration studies"@en,
+        "磁気共鳴画像装置で得られた脳画像の臨床評価尺度データベース構築と多施設による共同運用"@ja ;
+    dc:type "Neuroimage Clinical Info"@en,
+        "脳画像 臨床情報"@ja ;
+    dcterms:accessRights "Unrestricted-access Controlled-access (Type I)"@en,
+        "非制限公開 制限（Type I）"@ja ;
+    dcterms:identifier "hum0031" .
+
+hum:hum0032 a sio:SIO_000756 ;
+    rdfs:label "Standard epigenome mapping in human epithelial cells of the digestive and urogenital organs  (HPC series)"@en,
+        "ヒト消化器ならびに泌尿器上皮細胞の 標準エピゲノム解析 （HPCシリーズ）"@ja ;
+    dc:type "NGS (PBAT-seq, ChIP-seq, RNA-seq)"@en,
+        "NGS （PBAT-seq、ChIP-seq、RNA-seq）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0032" .
+
+hum:hum0033 a sio:SIO_000756 ;
+    rdfs:label "Functional analysis of two types of exosome  in human whole saliva"@en,
+        "ヒト唾液由来エキソソームの 機能解析に関する研究"@ja ;
+    dc:type "NGS (RNA-seq)"@en,
+        "NGS （RNA-seq）"@ja ;
+    dcterms:accessRights "Unrestricted-access"@en,
+        "非制限公開"@ja ;
+    dcterms:identifier "hum0033" .
+
+hum:hum0034 a sio:SIO_000756 ;
+    rdfs:label "Identification of novel therapeutic targets of small cell lung cancer by comprehensive genomic analyses"@en,
+        "小細胞肺癌の網羅的ゲノム解析による 新たな治療標的の探索を目指した研究"@ja ;
+    dc:type "NGS (Exome)"@en,
+        "NGS （Exome）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0034" .
+
+hum:hum0035 a sio:SIO_000756 ;
+    rdfs:label "Genome wide analysis of gene mutations in solid tumors"@en,
+        "固形腫瘍における遺伝子異常の網羅的解析"@ja ;
+    dc:type "NGS (Exome, Target Capture, RNA-seq) SNP-chip Methylation array"@en,
+        "NGS （Exome、Target Capture、RNA-seq） SNP-chip メチル化アレイ"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0035" ;
+    rdfs:seeAlso nando:NANDO_2200040,
+        nando:NANDO_2200046,
+        nando:NANDO_2200056,
+        nando:NANDO_2200080,
+        nando:NANDO_2200082 .
+
+hum:hum0036 a sio:SIO_000756 ;
+    rdfs:label "Performance Comparison of Four Commercial Human Whole-Exome Capture Platforms"@en,
+        "全エクソームキャプチャプラットフォーム間の 性能比較"@ja ;
+    dc:type "NGS (Exome) Platform comparison"@en,
+        "NGS （Exome）"@ja ;
+    dcterms:accessRights "Unrestricted-access"@en,
+        "非制限公開"@ja ;
+    dcterms:identifier "hum0036" .
+
+hum:hum0037 a sio:SIO_000756 ;
+    rdfs:label "Diagnostic feasibility study for pathological prediction with rheumatoid arthritis-susceptible genes and genomic regions identified by the association analysis using microsatelite markers"@en,
+        "関節リウマチ感受性遺伝子を用いた 関節リウマチ病態の遺伝診断法の開発研究"@ja ;
+    dc:type "NGS (Exome)"@en,
+        "NGS （Exome）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0037" .
+
+hum:hum0038 a sio:SIO_000756 ;
+    rdfs:label "Genetic analysis in an inherited cardiac arrhythmia"@en,
+        "家族性致死性不整脈の病因解明"@ja ;
+    dc:type "NGS (Exome)"@en,
+        "NGS （Exome）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0038" .
+
+hum:hum0039 a sio:SIO_000756 ;
+    rdfs:label "Analysis of TKI resistant mechanism for gastrointstinal stromal tumor (GIST)"@en,
+        "消化管間質腫瘍のチロシンキナーゼ阻害剤に 対する獲得耐性機構の解明"@ja ;
+    dc:type "NGS (Exome)"@en,
+        "NGS （Exome）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0039" .
+
+hum:hum0040 a sio:SIO_000756 ;
+    rdfs:label "Epigenomic analysis of the human placenta"@en,
+        "生殖発生に関わる細胞のエピゲノム解析基盤研究"@ja ;
+    dc:type "NGS (WGS, Exome, RNA-seq, BS-seq)"@en,
+        "NGS （WGS、Exome、RNA-seq、WGBS）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0040" .
+
+hum:hum0041 a sio:SIO_000756 ;
+    rdfs:label "Research of factors related to diagnosis, progression, prognosis and treatment of hepato-biliary-pancreatic malignancies"@en,
+        "肝胆膵癌の早期発見、進行、予後予測、 治療効果予測に関わる因子の研究"@ja ;
+    dc:type "NGS (Exome, Target Capture)"@en,
+        "NGS （Exome、Target Capture）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0041" ;
+    rdfs:seeAlso nando:NANDO_2200047 .
+
+hum:hum0042 a sio:SIO_000756 ;
+    rdfs:label "Genome analysis for elucidation of genetic factors in orofacial traits and diseases"@en,
+        "顎口腔領域の形質（性質や特徴） に関与する遺伝子の探索"@ja ;
+    dc:type "NGS (WGS)"@en,
+        "SNP-chip"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0042" .
+
+hum:hum0043 a sio:SIO_000756 ;
+    rdfs:label "Japanese Alzheimer's disease neuroimaging initiative (J-ADNI)"@en,
+        "アルツハイマー病総合診断体系実用化プロジェクト （J-ADNI全国臨床研究）"@ja ;
+    dc:type "Neuroimage Clinical Info"@en,
+        "脳画像 臨床情報"@ja ;
+    dcterms:accessRights "Unrestricted-access Controlled-access (Type I)"@en,
+        "非制限公開 制限（Type I）"@ja ;
+    dcterms:identifier "hum0043" .
+
+hum:hum0044 a sio:SIO_000756 ;
+    rdfs:label "Research about retrovirus infection"@en,
+        "ヒトレトロウイルス感染症に関する研究"@ja ;
+    dc:type "NGS (ChIP-seq)"@en,
+        "NGS （ChIP-seq）"@ja ;
+    dcterms:accessRights "Unrestricted-access"@en,
+        "非制限公開"@ja ;
+    dcterms:identifier "hum0044" .
+
+hum:hum0045 a sio:SIO_000756 ;
+    rdfs:label "Transcriptome analysis of acute lymphoblastic leukemia in adolescents and young adults"@en,
+        "思春期・若年成人急性リンパ芽球性白血病におけるトランスクリプトーム解析"@ja ;
+    dc:type "NGS (RNA-seq)"@en,
+        "NGS （RNA-seq）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0045" .
+
+hum:hum0048 a sio:SIO_000756 ;
+    rdfs:label "Whole exome sequencing on ampullary carcinomas"@en,
+        "次世代シークエンサーを用いた十二指腸・ファーター乳頭部腫瘍の全遺伝子のエクソン解析"@ja ;
+    dc:type "NGS (Exome)"@en,
+        "NGS （Exome）"@ja ;
+    dcterms:accessRights "Unrestricted-access"@en,
+        "非制限公開"@ja ;
+    dcterms:identifier "hum0048" .
+
+hum:hum0050 a sio:SIO_000756 ;
+    rdfs:label "Transcriptome analysis of Hepatitis B for drug discovery and clinical applications"@en,
+        "B型肝炎創薬へ向けてのトランスクリプトーム解析による病態解明と標的同定"@ja ;
+    dc:type "NGS (CAGE-seq)"@en,
+        "NGS （CAGE-seq）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0050" .
+
+hum:hum0053 a sio:SIO_000756 ;
+    rdfs:label "Identification of new molecular targets with profiling of malignant mesothelioma"@en,
+        "悪性中皮腫のプロファイリングによる新規分子標的の同定"@ja ;
+    dc:type "NGS (Exome, WGS)"@en,
+        "NGS （Exome、WGS）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0053" .
+
+hum:hum0055 a sio:SIO_000756 ;
+    rdfs:label "Genetic and epigentic analysis of non-alcoholic fatty liver disease"@en,
+        "非アルコール性脂肪肝疾患のゲノム・エピゲノム解析"@ja ;
+    dc:type "NGS (RNA-seq) Methylation array"@en,
+        "NGS （RNA-seq） メチル化アレイ"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0055" .
+
+hum:hum0056 a sio:SIO_000756 ;
+    rdfs:label "Genome and Multi-layer omics reference panels using blood samples from a population-based cohort study"@en,
+        "ヒト全ゲノム解析に基づく高精度の住民ゲノム参照パネルと3層オミックスパネルの作成"@ja ;
+    dc:type "NGS (WGS, WGBS, RNA-seq)"@en,
+        "NGS （WGS、WGBS、RNA-seq）"@ja ;
+    dcterms:accessRights "Unrestricted-access"@en,
+        "非制限公開"@ja ;
+    dcterms:identifier "hum0056" .
+
+hum:hum0058 a sio:SIO_000756 ;
+    rdfs:label "Identification of genetic mutations characteristic for recurrence and metastasis of colorectal cancer."@en,
+        "大腸がんの転移/再発に特徴的な遺伝子変異の同定"@ja ;
+    dc:type "NGS (Exome)"@en,
+        "NGS （Exome）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0058" .
+
+hum:hum0059 a sio:SIO_000756 ;
+    rdfs:label "Identification of genetic mutations characteristic for recurrence of serous ovarian cancer"@en,
+        "卵巣がんの再発に特徴的な遺伝子変異の同定"@ja ;
+    dc:type "NGS (Exome)"@en,
+        "NGS （Exome）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0059" .
+
+hum:hum0060 a sio:SIO_000756 ;
+    rdfs:label "Identification of genetic mutations characteristic for recurrence and metastasis of breast cancer"@en,
+        "乳がんの再発/転移に特徴的な遺伝子変異の同定"@ja ;
+    dc:type "NGS (Exome)"@en,
+        "NGS （Exome）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0060" .
+
+hum:hum0061 a sio:SIO_000756 ;
+    rdfs:label "Searching causative genes of familial tumors using whole genome / exome sequencing"@en,
+        "全ゲノムあるいは全エクソン解析による家族性腫瘍原因遺伝子の同定"@ja ;
+    dc:type "NGS (Exome)"@en,
+        "NGS （Exome）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0061" .
+
+hum:hum0064 a sio:SIO_000756 ;
+    rdfs:label "Construction of Geriatric Oncology Database for establishment of the Treatment Algorithm: Clinical Data and Questionnaire Survey Results in JapaneseElderly Cancer Patients Retrospective study"@en,
+        "高齢者がん治療アルゴリズム開発のためのガイドポスト・データベースの構築と必須情報及びその推定モデル"@ja ;
+    dc:type "Direct sequencing TaqMan qRT-PCR COBRA cDNA microarray Clinical data Treatment data"@en,
+        "*サンガー TaqMan qRT-PCR マイクロアレイ COBRA 治療情報 臨床情報"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0064" ;
+    rdfs:seeAlso nando:NANDO_1100005 .
+
+hum:hum0065 a sio:SIO_000756 ;
+    rdfs:label "Shuttle system between petient-derived xenograft and ex vivo culture for innovative platform of evaluating drug sensitivity"@en,
+        "患者腫瘍移植モテ$3099ルとex vivo培養間のシャトルシステムによる革新的な臨床効果評価技術の開発"@ja ;
+    dc:type "NGS (Exome)"@en,
+        "NGS （Exome）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0065" .
+
+hum:hum0066 a sio:SIO_000756 ;
+    rdfs:label "Investigating the mechanisms of tumor recurrence and metastasis by non-coding RNA"@en,
+        "癌の再発・転移に関与するnon-coding RNAの同定とその機序の解明"@ja ;
+    dc:type "NGS (Exome)"@en,
+        "NGS （Exome）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0066" .
+
+hum:hum0067 a sio:SIO_000756 ;
+    rdfs:label "Project for Development of Innovative Research on Cancer Therapeutics; identifiying the predictive factors for response to chemoherapy in ovarian cancer"@en,
+        "卵巣明細胞腺癌に対する新規バイオマーカーの検索と化学療法感受性に関する後方視的検討"@ja ;
+    dc:type "NGS (Exome)"@en,
+        "NGS （Exome）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0067" .
+
+hum:hum0068 a sio:SIO_000756 ;
+    rdfs:label "Cancer genomics for elucidation of molecular mechanisms of carcinogenecis and progression in lung cancer"@en,
+        "ゲノム解析に基づく肺がんの発生・進展の分子機構の解明"@ja ;
+    dc:type "NGS (PCR amplicon Seq, WGS, RNA-seq, scDNA-seq, Target Capture, Visium Spatial Gene Expression) Histological image Multiplex Fluorescence Immunostaining Xenium In Situ Gene Expression"@en,
+        "NGS （PCR amplicon Seq、WGS、RNA-seq、scDNA-seq、Target Capture、Visium Spatial Gene Expression） 病理画像 Multiplex Fluorescence Immunostaining Xenium In Situ Gene Expression"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0068" .
+
+hum:hum0069 a sio:SIO_000756 ;
+    rdfs:label "RNA expression profiling of neuromuscular diseases and viral diseases"@en,
+        "神経筋疾患、ウイルス性疾患におけるRNA発現プロファイル解析"@ja ;
+    dc:type "NGS (small RNA-seq)"@en,
+        "NGS （small RNA-seq）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0069" ;
+    rdfs:seeAlso nando:NANDO_1100001,
+        nando:NANDO_2100214 .
+
+hum:hum0070 a sio:SIO_000756 ;
+    rdfs:label "Molecular analysis of Birt-Hogg-Dube syndrome: Identification of new diagnostic marker and therapeutic target"@en,
+        "バート・ホッグ・デュベ症候群の分子病態解明と新規の診断マーカーおよび治療標的分子の探索研究"@ja ;
+    dc:type "NGS (Exome)"@en,
+        "NGS （Exome）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0070" .
+
+hum:hum0072 a sio:SIO_000756 ;
+    rdfs:label "Identification and functional analyses of susceptibility genes to narcolepsy and other sleep disorders"@en,
+        "ナルコレプシーおよび各種睡眠障害の感受性遺伝子の同定と機能解析"@ja ;
+    dc:type "SNP-chip"@en,
+        "SNP-chip"@ja ;
+    dcterms:accessRights "Unrestricted-access"@en,
+        "非制限公開"@ja ;
+    dcterms:identifier "hum0072" .
+
+hum:hum0074 a sio:SIO_000756 ;
+    rdfs:label "Genome-wide association studies on Hepatitis C virus-related diseases and construction of genome database"@en,
+        "テーラーメイド治療を目指した肝炎ウイルスデータベース構築に関する研究"@ja ;
+    dc:type "SNP-chip"@en,
+        "SNP-chip"@ja ;
+    dcterms:accessRights "Unrestricted-access"@en,
+        "非制限公開"@ja ;
+    dcterms:identifier "hum0074" ;
+    rdfs:seeAlso nando:NANDO_2200047 .
+
+hum:hum0075 a sio:SIO_000756 ;
+    rdfs:label "Search for susceptibility genes to hepatitis virus B-related diseases"@en,
+        "B型肝炎ウイルス感染の病態別における宿主遺伝因子の探索研究"@ja ;
+    dc:type "SNP-chip"@en,
+        "SNP-chip"@ja ;
+    dcterms:accessRights "Unrestricted-access"@en,
+        "非制限公開"@ja ;
+    dcterms:identifier "hum0075" ;
+    rdfs:seeAlso nando:NANDO_2200047 .
+
+hum:hum0076 a sio:SIO_000756 ;
+    rdfs:label "Genome-wide search for susceptibility genes to primary biliary chirrosis"@en,
+        "日本人原発性胆汁性肝硬変の発症・進展に関わる遺伝因子の網羅的遺伝子解析"@ja ;
+    dc:type "SNP-chip"@en,
+        "SNP-chip"@ja ;
+    dcterms:accessRights "Unrestricted-access"@en,
+        "非制限公開"@ja ;
+    dcterms:identifier "hum0076" ;
+    rdfs:seeAlso nando:NANDO_1200439 .
+
+hum:hum0079 a sio:SIO_000756 ;
+    rdfs:label "Genetic analysis in neurodegeneraive disorders"@en,
+        "神経筋変性疾患の遺伝子解析研究"@ja ;
+    dc:type "NGS (RNA-seq)"@en,
+        "NGS （RNA-seq）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0079" ;
+    rdfs:seeAlso nando:NANDO_1200032,
+        nando:NANDO_1200276 .
+
+hum:hum0082 a sio:SIO_000756 ;
+    rdfs:label "Genome-wide analysis of SNPs in Healthy Japanese"@en,
+        "日本人健常者におけるゲノム全域のSNP解析"@ja ;
+    dc:type "SNP-chip Control Set"@en,
+        "SNP-chip"@ja ;
+    dcterms:accessRights "Unrestricted-access Controlled-access (Type I)"@en,
+        "非制限公開 制限（Type I）"@ja ;
+    dcterms:identifier "hum0082" .
+
+hum:hum0083 a sio:SIO_000756 ;
+    rdfs:label "Genome-wide analysis for biomarker exploration (lung cancer)"@en,
+        "バイオマーカー探索に資する網羅的遺伝子解析研究（肺がん）"@ja ;
+    dc:type "NGS (CAGE-seq)"@en,
+        "NGS （CAGE-seq）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0083" .
+
+hum:hum0085 a sio:SIO_000756 ;
+    rdfs:label "Molecular biological research affecting on long-term treatment to malignant tumors derived from the chest or abdomen Genomic analysis of environment-associated tumors"@en,
+        "胸腹部腫瘍の長期治療成績に関する分子生物学的研究 環境因子が関与する腫瘍のゲノム解析"@ja ;
+    dc:type "Array CGH, NGS (WGS, Target Capture, Exome)"@en,
+        "アレイCGH NGS（WGS、Target Capture、Exome）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0085" .
+
+hum:hum0086 a sio:SIO_000756 ;
+    rdfs:label "Epigenomic analysis of the human placenta and endometrium constituting the fetal-maternal interface"@en,
+        "生殖発生にかかわる細胞のエピゲノム解析基盤研究"@ja ;
+    dc:type "NGS (PBAT-seq, ChIP-seq, RNA-seq, small RNA-seq)"@en,
+        "NGS（PBAT-seq、ChIP-seq、RNA-seq、small RNA-seq）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0086" .
+
+hum:hum0088 a sio:SIO_000756 ;
+    rdfs:label "Global analysis of TGF-beta family signaling in cancer cells"@en,
+        "腫瘍細胞におけるTGF-βファミリーシグナルの網羅的解析"@ja ;
+    dc:type "NGS (RNA-seq, WGS)"@en,
+        "NGS （RNA-seq、WGS）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0088" ;
+    rdfs:seeAlso nando:NANDO_2200087 .
+
+hum:hum0090 a sio:SIO_000756 ;
+    rdfs:label "Study of molecular-genetics, and molecular epidemiology for developing treatment of esophageal cancer (COC series)"@en,
+        "ヒト消化器ならびに泌尿器上皮細胞の 標準エピゲノム解析 （COCシリーズ）"@ja ;
+    dc:type "NGS (PBAT-seq, ChIP-seq, RNA-seq)"@en,
+        "NGS （PBAT-seq、ChIP-seq、RNA-seq）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0090" .
+
+hum:hum0091 a sio:SIO_000756 ;
+    rdfs:label "Study of molecular-genetics, and molecular epidemiology for developing treatment of esophageal cancer (GAC series)"@en,
+        "ヒト消化器ならびに泌尿器上皮細胞の 標準エピゲノム解析 （GACシリーズ）"@ja ;
+    dc:type "NGS (PBAT-seq, ChIP-seq, RNA-seq)"@en,
+        "NGS （PBAT-seq、ChIP-seq、RNA-seq）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0091" .
+
+hum:hum0094 a sio:SIO_000756 ;
+    rdfs:label "Genomic and epigenomic analysis of different types of cancer"@en,
+        "悪性腫瘍のゲノム・エピゲノム解析による病態解明"@ja ;
+    dc:type "NGS (WGS, Exome, RNA-seq, Target Capture, Iso-seq), Methylation array, SNP-chip"@en,
+        "NGS （WGS、Exome、RNA-seq、Target Capture、Iso-seq）、メチル化アレイ、SNP-chip"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0094" .
+
+hum:hum0095 a sio:SIO_000756 ;
+    rdfs:label "Genetic analysis of colorectal precancerous lesion and early colorectal cancer to investigate mechanism of carcinogenesis of colorectal cancer"@en,
+        "大腸前がん病変および早期大腸がんにおける遺伝子解析および発がん機序の解明"@ja ;
+    dc:type "NGS (Exome)"@en,
+        "NGS （Exome）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0095" .
+
+hum:hum0096 a sio:SIO_000756 ;
+    rdfs:label "Comprehensive analysis of genetic alterations in hematological malignancies"@en,
+        "造血器腫瘍における遺伝子異常の網羅的解析（小児T細胞性急性リンパ性白血病）"@ja ;
+    dc:type "NGS (RNA-seq) Methylation array"@en,
+        "NGS （RNA-seq） メチル化アレイ"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0096" ;
+    rdfs:seeAlso nando:NANDO_2200003 .
+
+hum:hum0097 a sio:SIO_000756 ;
+    rdfs:label "Cytogenetic analysis of hematopoietic cells in bone marrow failure syndrome"@en,
+        "骨髄不全症候群における血球の質に関する検討"@ja ;
+    dc:type "NGS (Exome)"@en,
+        "NGS （Exome）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0097" ;
+    rdfs:seeAlso nando:NANDO_1200295,
+        nando:NANDO_1200296,
+        nando:NANDO_2200693,
+        nando:NANDO_2201276 .
+
+hum:hum0099 a sio:SIO_000756 ;
+    rdfs:label "Expression quantitative trait loci analysis using human immune cells"@en,
+        "ヒト免疫細胞における遺伝子多型と遺伝子発現の関連解析"@ja ;
+    dc:type "NGS (RNA-seq) SNP-chip"@en,
+        "NGS （RNA-seq） SNP-chip"@ja ;
+    dcterms:accessRights "Unrestricted-access Controlled-access (Type I)"@en,
+        "非制限公開 制限（Type I）"@ja ;
+    dcterms:identifier "hum0099" .
+
+hum:hum0101 a sio:SIO_000756 ;
+    rdfs:label "Identification of gene mutations in primary immunodeficiency characterized by EBV-associated B-cell lymphoma"@en,
+        "EBウイルス関連リンパ腫を発症した原発性免疫不全症候群の原因遺伝子探索に関する研究"@ja ;
+    dc:type "NGS (Target Capture)"@en,
+        "NGS （Target Capture）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0101" ;
+    rdfs:seeAlso nando:NANDO_1200320 .
+
+hum:hum0103 a sio:SIO_000756 ;
+    rdfs:label "Genome sequencing analysis for biliary tract cancer"@en,
+        "シークエンス解析によるがんゲノム研究：胆道がん"@ja ;
+    dc:type "NGS (WGS, Exome, RNA-seq)"@en,
+        "NGS （WGS、Exome、RNA-seq）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0103" .
+
+hum:hum0106 a sio:SIO_000756 ;
+    rdfs:label "Development of the prevention and therapy of CRC using patient derived culture tissues."@en,
+        "ヒト大腸がん培養組織を用いたがん予防・治療法の開発"@ja ;
+    dc:type "NGS (scRNA-seq)"@en,
+        "NGS （scRNA-seq）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0106" .
+
+hum:hum0107 a sio:SIO_000756 ;
+    rdfs:label "Establish induced pluripotent stem (iPS) cells from patients with Gorlin syndrome and elucidate the pathology"@en,
+        "基底細胞母斑症候群患者からのinduced pluripotent stem （iPS）細胞の樹立および病態の解明、骨移植への臨床応用"@ja ;
+    dc:type "NGS (Exome, RNA-seq)"@en,
+        "NGS （Exome、RNA-seq）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0107" ;
+    rdfs:seeAlso nando:NANDO_2200828 .
+
+hum:hum0108 a sio:SIO_000756 ;
+    rdfs:label "Search for new susceptibility genetic factors associated with psychiatric disorders"@en,
+        "精神疾患発症にかかわる関連遺伝子の探索および解析"@ja ;
+    dc:type "Methylation array"@en,
+        "メチル化アレイ"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0108" .
+
+hum:hum0111 a sio:SIO_000756 ;
+    rdfs:label "Analysis of gastric cancer genome and its clinicopathological significance"@en,
+        "胃腫瘍のゲノム・遺伝子解析とその臨床病理学的意義の解明"@ja ;
+    dc:type "NGS (RNA-seq, Amplicon-seq)"@en,
+        "NGS （RNA-seq、Amplicon-seq）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0111" .
+
+hum:hum0112 a sio:SIO_000756 ;
+    rdfs:label "Basic research for the establishment and characterization of human trophoblast stem cells"@en,
+        "ヒト胎盤幹細胞の樹立と細胞特性に関する基礎的研究"@ja ;
+    dc:type "NGS (PBAT-seq, ChIP-seq, RNA-seq, miRNA-seq)"@en,
+        "NGS（PBAT-seq、ChIP-seq、RNA-seq、miRNA-seq）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0112" .
+
+hum:hum0113 a sio:SIO_000756 ;
+    rdfs:label "Development of metabolite biomarkers of Parkinson’s disease and identification of drug seeds from chemical screening based on the biomarkers"@en,
+        "パーキンソン病の代謝産物バイオマーカー創出およびその分子標的機構に基づく創薬シーズ同定"@ja ;
+    dc:type "NGS (CAGE-seq)"@en,
+        "NGS （CAGE-seq）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0113" ;
+    rdfs:seeAlso nando:NANDO_1200010 .
+
+hum:hum0114 a sio:SIO_000756 ;
+    rdfs:label "Research on statistical genetics using B cell lines of Japanese ancestry"@en,
+        "日本人由来B細胞株DNAのゲノムデータを用いた遺伝統計解析手法の研究"@ja ;
+    dc:type "SNP-chip NGS (Target Capture)"@en,
+        "SNP-chip NGS （Target Capture）"@ja ;
+    dcterms:accessRights "Unrestricted-access Controlled-access (Type I)"@en,
+        "非制限公開 制限（Type I）"@ja ;
+    dcterms:identifier "hum0114" .
+
+hum:hum0115 a sio:SIO_000756 ;
+    rdfs:label "Controlling cell differentiation with precision through understanding the structure and dynamics of gene regulatory networks"@en,
+        "動的遺伝子ネットワークの多次元構造解析による高精度な細胞分化制御技術の開発"@ja ;
+    dc:type "NGS (RNA-seq) Microarray"@en,
+        "NGS （RNA-seq） マイクロアレイ"@ja ;
+    dcterms:accessRights "Unrestricted-access Controlled-access (Type I)"@en,
+        "非制限公開 制限（Type I）"@ja ;
+    dcterms:identifier "hum0115" .
+
+hum:hum0116 a sio:SIO_000756 ;
+    rdfs:label "Development of hunanized mice for human immunity research"@en,
+        "ヒト化マウス（humanized mouse) の作製と免疫学研究への応用"@ja ;
+    dc:type "NGS (Target Capture, scRNA-seq)"@en,
+        "NGS （Target Capture、scRNA-seq）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限(Type I)"@ja ;
+    dcterms:identifier "hum0116" ;
+    rdfs:seeAlso nando:NANDO_2200004,
+        nando:NANDO_2200005,
+        nando:NANDO_2200006,
+        nando:NANDO_2200007,
+        nando:NANDO_2200008,
+        nando:NANDO_2200009,
+        nando:NANDO_2200010,
+        nando:NANDO_2200011 .
+
+hum:hum0117 a sio:SIO_000756 ;
+    rdfs:label "Epigenetics analysis of neurodegenerative diseases"@en,
+        "神経変性疾患のエピジェネティクス解析"@ja ;
+    dc:type "Methylation array"@en,
+        "メチル化アレイ"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0117" .
+
+hum:hum0118 a sio:SIO_000756 ;
+    rdfs:label "Genome-wide analysis for biomarker exploration (endometrial cancer)"@en,
+        "バイオマーカー探索に資する網羅的遺伝子解析研究（子宮体がん）"@ja ;
+    dc:type "NGS (CAGE-seq) Sanger-seq"@en,
+        "NGS （CAGE-seq） Sanger-seq"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0118" .
+
+hum:hum0119 a sio:SIO_000756 ;
+    rdfs:label "Analysis for mechanism of onset and progress for NASH"@en,
+        "NASHの発症、進展を規定するメカニズム解析"@ja ;
+    dc:type "SNP-chip"@en,
+        "SNP-chip"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0119" ;
+    rdfs:seeAlso nando:NANDO_2200047 .
+
+hum:hum0120 a sio:SIO_000756 ;
+    rdfs:label "The genetic analysis of circulating tumor DNA in blood of the digestive cancer patients to investigate the prognostic factors of metastasis and reccurence."@en,
+        "消化器癌患者の末梢血液中における転移再発の予測因子候補に関する臨床的意義の確立"@ja ;
+    dc:type "NGS (Exome, RNA-seq, Target Capture, WGBS) Methylation array"@en,
+        "NGS （Exome、RNA-seq、Target Capture、WGBS） メチル化アレイ"@ja ;
+    dcterms:accessRights "Unrestricted-access Controlled-access (Type I)"@en,
+        "非制限公開 制限（Type I）"@ja ;
+    dcterms:identifier "hum0120" .
+
+hum:hum0122 a sio:SIO_000756 ;
+    rdfs:label "Mutation analysis of iPS cells derived from commercially-avaialble human primary cells"@en,
+        "市販ヒト初代細胞由来iPS 細胞のゲノム変異解析"@ja ;
+    dc:type "NGS (WGS) SNP-chip"@en,
+        "NGS （WGS） SNP-chip"@ja ;
+    dcterms:accessRights "Unrestricted-access"@en,
+        "非制限公開"@ja ;
+    dcterms:identifier "hum0122" .
+
+hum:hum0124 a sio:SIO_000756 ;
+    rdfs:label "Study for exome sequencing in familial epidermal growth factor receptor-mutant lung cancer"@en,
+        "ヒト上皮成長因子受容体（EGFR）遺伝子変異をもつ肺癌家系における肺癌発癌関連遺伝子同定に関する研究"@ja ;
+    dc:type "NGS (Exome)"@en,
+        "NGS （Exome）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0124" .
+
+hum:hum0125 a sio:SIO_000756 ;
+    rdfs:label "Immune regulation by cotrolling regulatory T cell-specific epigenome"@en,
+        "制御性T細胞特異的エピゲノム誘導による免疫制御の研究"@ja ;
+    dc:type "NGS (RNA-seq)"@en,
+        "NGS （RNA-seq）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0125" ;
+    rdfs:seeAlso nando:NANDO_1200444,
+        nando:NANDO_2200921 .
+
+hum:hum0126 a sio:SIO_000756 ;
+    rdfs:label "Identification of the disease and drug susceptibility genes for the Childhood Idiopathic Nephrotic Syndrome"@en,
+        "小児ネフローゼ症候群の疾患感受性遺伝子及び薬剤感受性遺伝子同定研究"@ja ;
+    dc:type "SNP-chip"@en,
+        "SNP-chip"@ja ;
+    dcterms:accessRights "Unrestricted-access"@en,
+        "非制限公開"@ja ;
+    dcterms:identifier "hum0126" ;
+    rdfs:seeAlso nando:NANDO_1200719 .
+
+hum:hum0127 a sio:SIO_000756 ;
+    rdfs:label "Implementation of individualized medicine for cancer patients by multiomics-based analyses$2014the Project HOPE (High-tech Omics-based Patients Evaluation) for Cancer Therapy$2014"@en,
+        "マルチオーミクス解析を用いたがん患者評価に基づく個別化治療と新技術開発に関する研究ープロジェクトHOPE（High-tech Omics-based Patients Evaluation）for Cancer Therapyー"@ja ;
+    dc:type "NGS (Exome, DNA Amplicon-seq, RNA Amplicon-seq, WGS) Microarray Methylation array"@en,
+        "NGS （Exome、DNA Amplicon-seq、RNA Amplicon-seq、WGS） マイクロアレイ メチル化アレイ"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0127" .
+
+hum:hum0128 a sio:SIO_000756 ;
+    rdfs:label "A study on comprehensive genome and proteome analyses of the chronic eosinophillic inflammatory diseases."@en,
+        "慢性好酸球性炎症疾患の網羅的遺伝子解析と網羅的蛋白質解析に関する研究"@ja ;
+    dc:type "NGS (RNA-seq)"@en,
+        "NGS （RNA-seq）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0128" .
+
+hum:hum0129 a sio:SIO_000756 ;
+    rdfs:label "Research for analyzing mechanistic insight into disease progression of neural disease based on iPS cell technology"@en,
+        "神経疾患患者からのiPS細胞の樹立とそれを用いた疾患解析に関する研究"@ja ;
+    dc:type "NGS (ChIP-seq)"@en,
+        "NGS （ChIP-seq）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0129" ;
+    rdfs:seeAlso nando:NANDO_1200464,
+        nando:NANDO_2200972 .
+
+hum:hum0130 a sio:SIO_000756 ;
+    rdfs:label "Comprehensive genetic analyses of bone marrow cells in POEMS syndrome Analyses of molecular mechanisms of hematological malignancies and bone marrow niche"@en,
+        "ＰＯＥＭＳ症候群の骨髄細胞における遺伝子異常の網羅的解析 造血器腫瘍と骨髄ニッチ細胞の遺伝子異常解析による分子病態の解明と新規治療薬開発の基盤構築"@ja ;
+    dc:type "NGS (Exome, Target Capture, RNA-seq, scRNA-seq)"@en,
+        "NGS （Exome、Target Capture、RNA-seq、scRNA-seq）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0130" ;
+    rdfs:seeAlso nando:NANDO_1200033,
+        nando:NANDO_2100004 .
+
+hum:hum0131 a sio:SIO_000756 ;
+    rdfs:label "The epigenetics of neurodevelopmental disorders"@en,
+        "発達障害のエピゲノム解析"@ja ;
+    dc:type "NGS (RNA-seq)"@en,
+        "NGS （RNA-seq）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0131" ;
+    rdfs:seeAlso nando:NANDO_1200664,
+        nando:NANDO_2200286 .
+
+hum:hum0132 a sio:SIO_000756 ;
+    rdfs:label "Identification of genetic alterations in Vietnamese individuals with elevated blood dioxin level"@en,
+        "ベトナムにおけるダイオキシン関連疾患のゲノムシークエンス解析"@ja ;
+    dc:type "NGS (WGS)"@en,
+        "NGS （WGS）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0132" .
+
+hum:hum0133 a sio:SIO_000756 ;
+    rdfs:label "Identification of genetic mutations characteristic for recurrence and metastasis of gastric cancer."@en,
+        "胃がんの転移/再発に特徴的な遺伝子変異の同定"@ja ;
+    dc:type "NGS (Exome)"@en,
+        "NGS （Exome）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0133" .
+
+hum:hum0134 a sio:SIO_000756 ;
+    rdfs:label "Identification of genetic mutations characteristic for recurrence and metastasis of B cell lymphoma."@en,
+        "Bリンパ腫の転移/再発に特徴的な遺伝子変異の同定"@ja ;
+    dc:type "NGS (Exome)"@en,
+        "NGS （Exome）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0134" ;
+    rdfs:seeAlso nando:NANDO_2200020 .
+
+hum:hum0136 a sio:SIO_000756 ;
+    rdfs:label "Construction of integrated clinical genome database regarding hepatitis B related diseases"@en,
+        "B型肝炎に関する統合的臨床ゲノムデータベースの構築を目指す研究"@ja ;
+    dc:type "SNP-chip"@en,
+        "SNP-chip"@ja ;
+    dcterms:accessRights "Unrestricted-access Controlled-access (Type I)"@en,
+        "非制限公開 制限（Type I）"@ja ;
+    dcterms:identifier "hum0136" .
+
+hum:hum0137 a sio:SIO_000756 ;
+    rdfs:label "a multicenter study of susceptibility genes to type 1 diabetes"@en,
+        "1型糖尿病関連遺伝子群の多施設共同研究"@ja ;
+    dc:type "NGS (Target Capture)"@en,
+        "NGS （Target Capture）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0137" ;
+    rdfs:seeAlso nando:NANDO_2200460 .
+
+hum:hum0138 a sio:SIO_000756 ;
+    rdfs:label "Clonal structure and oncogenic potential of liver cirrhosis tissues"@en,
+        "固形腫瘍における遺伝子異常の網羅的解析"@ja ;
+    dc:type "NGS (Exome, RNA-seq)"@en,
+        "NGS （Exome、RNA-seq）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0138" ;
+    rdfs:seeAlso nando:NANDO_2200047,
+        nando:NANDO_2200937 .
+
+hum:hum0139 a sio:SIO_000756 ;
+    rdfs:label "Research for drug discovery and elucidation of pathophysiology using disease-specific iPS cells"@en,
+        "疾患特異的iPS細胞を用いた創薬・疾患研究"@ja ;
+    dc:type "NGS (Exome)"@en,
+        "NGS （Exome）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0139" .
+
+hum:hum0140 a sio:SIO_000756 ;
+    rdfs:label "Prediction of response to preoperative chemoradiotherapy in rectal cancer based on whole-exome sequencing and transcriptomic analysis"@en,
+        "microRNA/mRNA網羅的発現解析及び全エクソンシークエンス解析に基づく直腸癌術前治療効果予測法の開発"@ja ;
+    dc:type "NGS (Exome)"@en,
+        "NGS （Exome）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0140" .
+
+hum:hum0141 a sio:SIO_000756 ;
+    rdfs:label "Immune regulation by cotrolling regulatory T cell-specific epigenome"@en,
+        "制御性T細胞特異的エピゲノム誘導による免疫制御の研究"@ja ;
+    dc:type "NGS (RNA-seq)"@en,
+        "NGS （RNA-seq）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0141" .
+
+hum:hum0143 a sio:SIO_000756 ;
+    rdfs:label "Aberrant (pro)renin receptor expression induces genomic instability by chromatin remodeler SMARCA5 disruption during the pancreatic ductal adenocarcinoma"@en,
+        "膵臓癌の進展において(プロ)レニン受容体の発現亢進は、クロマチンリモデラーSMARCA5の発現増大を介してゲノム不安定性を生じる"@ja ;
+    dc:type "NGS (WGS)"@en,
+        "NGS （WGS）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0143" .
+
+hum:hum0144 a sio:SIO_000756 ;
+    rdfs:label "Comprehensive analysis of genetic alterations in hematological malignancies (pediatric B-cell precursor acute lymphoblastic leukemia in Down syndrome)"@en,
+        "造血器腫瘍における遺伝子異常の網羅的解析（ダウン症候群患者におけるB前駆細胞性急性リンパ性白血病）"@ja ;
+    dc:type "NGS (RNA-seq),  Methylation array,  SNP array"@en,
+        "NGS （RNA-seq） メチル化アレイ SNP-chip"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0144" .
+
+hum:hum0145 a sio:SIO_000756 ;
+    rdfs:label "The genetic analysis of circulating tumor DNA in blood of the digestive cancer patients to investigate the prognostic factors of metastasis and reccurence."@en,
+        "消化器癌患者の末梢血液中における転移再発の予測因子候補に関する臨床的意義の確立"@ja ;
+    dc:type "NGS (Target Capture)"@en,
+        "NGS （Target Capture）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0145" .
+
+hum:hum0146 a sio:SIO_000756 ;
+    rdfs:label "Diagnosis of imprinting disorders and safety evaluation of assisted reproduction technologies (ART)"@en,
+        "先天性インプリント異常症の診断と生殖医療の安全性評価"@ja ;
+    dc:type "NGS (RRBS)"@en,
+        "NGS （RRBS）"@ja ;
+    dcterms:accessRights "Unrestricted-access"@en,
+        "非制限公開"@ja ;
+    dcterms:identifier "hum0146" .
+
+hum:hum0147 a sio:SIO_000756 ;
+    rdfs:label "Immune regulation by cotrolling regulatory T cell-specific epigenome"@en,
+        "制御性T細胞特異的エピゲノム誘導による免疫制御の研究"@ja ;
+    dc:type "NGS (RNA-seq, ChIP-seq, PBAT-seq, ATAC-seq, scRNA-seq)"@en,
+        "NGS （RNA-seq、ChIP-seq、PBAT-seq、ATAC-seq、scRNA-seq）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0147" .
+
+hum:hum0148 a sio:SIO_000756 ;
+    rdfs:label "Analysis of abnomal character and expression of genes in tissues of urologic carcinomas."@en,
+        "泌尿器科腫瘍組織での遺伝子異常と発現解析"@ja ;
+    dc:type "NGS (RNA-seq)"@en,
+        "NGS （RNA-seq）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0148" ;
+    rdfs:seeAlso nando:NANDO_2200045 .
+
+hum:hum0152 a sio:SIO_000756 ;
+    rdfs:label "Multi‐institutional study on molcular pathogenesis of bone and soft tissue tumors by genome and proteome analyses and its clinical application"@en,
+        "ゲノム・プロテオーム解析に基づく骨軟部腫瘍の分子病態把握とその臨床応用を目指す多施設共同研究"@ja ;
+    dc:type "NGS (WGS, Exome, RNA-seq)"@en,
+        "NGS （WGS、Exome、RNA-seq）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0152" .
+
+hum:hum0153 a sio:SIO_000756 ;
+    rdfs:label "Multiomics analysis of rare cancers to identify genetic alterations related with pathogenesis and prognosis"@en,
+        "希少腫瘍の発症・予後に関する遺伝子の網羅的解析研究"@ja ;
+    dc:type "NGS (Exome, RNA-seq, Target Capture)"@en,
+        "NGS （Exome、RNA-seq、Target Capture）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0153" .
+
+hum:hum0156 a sio:SIO_000756 ;
+    rdfs:label "Integrative genetic analysis using next generation sequencer reveals mechanisms of resistance to chemoradiotherapy for esophageal cancer"@en,
+        "次世代シークエンサーを用いた遺伝子統合解析による食道癌化学放射線療法耐性の解明"@ja ;
+    dc:type "NGS (Exome)"@en,
+        "NGS （Exome）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0156" .
+
+hum:hum0157 a sio:SIO_000756 ;
+    rdfs:label "Cancer clinical sequence and accompanying research for comprehensive genomic and epigenomic analyses"@en,
+        "がんのクリニカルシークエンスと付随研究としての網羅的ゲノム・エピゲノム解析"@ja ;
+    dc:type "NGS (Target Capture)"@en,
+        "NGS （Target Capture）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0157" .
+
+hum:hum0158 a sio:SIO_000756 ;
+    rdfs:label "Genome sequencing analysis for liver cancer"@en,
+        "シークエンス解析によるがんゲノム研究：肝臓がん"@ja ;
+    dc:type "NGS (WGS, RNA-seq)"@en,
+        "NGS （WGS、RNA-seq）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0158" ;
+    rdfs:seeAlso nando:NANDO_2200047 .
+
+hum:hum0159 a sio:SIO_000756 ;
+    rdfs:label "Genome sequencing analysis for colorectal cancer"@en,
+        "シークエンス解析によるがんゲノム研究：大腸がん"@ja ;
+    dc:type "NGS (WGS)"@en,
+        "NGS （WGS）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0159" .
+
+hum:hum0160 a sio:SIO_000756 ;
+    rdfs:label "Genome sequencing analysis for esophageal squamous cell carcinoma"@en,
+        "シークエンス解析によるがんゲノム研究：食道がん"@ja ;
+    dc:type "NGS (WGS)"@en,
+        "NGS （WGS）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0160" .
+
+hum:hum0161 a sio:SIO_000756 ;
+    rdfs:label "Genome sequencing analysis for hepatoblastoma"@en,
+        "シークエンス解析によるがんゲノム研究：肝芽腫"@ja ;
+    dc:type "NGS (WGS)"@en,
+        "NGS （WGS）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0161" ;
+    rdfs:seeAlso nando:NANDO_2200046 .
+
+hum:hum0163 a sio:SIO_000756 ;
+    rdfs:label "Pharmacogenomics research for therapeutics in psychiatry, neurology and oncology"@en,
+        "精神・神経疾患治療薬及びがん治療薬におけるファーマコゲノミクス研究"@ja ;
+    dc:type "NGS (Target Capture) SNP-chip"@en,
+        "NGS （Target Capture） SNP-chip"@ja ;
+    dcterms:accessRights "Unrestricted-access"@en,
+        "非制限公開"@ja ;
+    dcterms:identifier "hum0163" ;
+    rdfs:seeAlso nando:NANDO_1200633,
+        nando:NANDO_2200077 .
+
+hum:hum0164 a sio:SIO_000756 ;
+    rdfs:label "Tohoku Medical Megabank Organization cohort study"@en,
+        "東北メディカル・メガバンク事業地域住民コホート調査"@ja ;
+    dc:type "SNP-chip"@en,
+        "SNP-chip"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0164" .
+
+hum:hum0165 a sio:SIO_000756 ;
+    rdfs:label "Genetic analysis of familial myelodysplastic syndromes"@en,
+        "家族性骨髄異形成症候群の遺伝子解析研究"@ja ;
+    dc:type "NGS  (Exome)"@en,
+        "NGS （Exome）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0165" ;
+    rdfs:seeAlso nando:NANDO_2200019 .
+
+hum:hum0166 a sio:SIO_000756 ;
+    rdfs:label "Multicenter Evaluation of NUDT15-R139C genotyping efficiency to DEtect thiopurine-induced hair Loss and leukopenia (MENDEL study)"@en,
+        "炎症性腸疾患患者におけるチオプリン関連副作用とNUDT15遺伝子多型との相関性に関する多施設共同研究（MENDEL Study）"@ja ;
+    dc:type "SNP-chip"@en,
+        "SNP-chip"@ja ;
+    dcterms:accessRights "Unrestricted-access Controlled-access (Type I)"@en,
+        "非制限公開 制限（Type I）"@ja ;
+    dcterms:identifier "hum0166" ;
+    rdfs:seeAlso nando:NANDO_1200444,
+        nando:NANDO_1200449,
+        nando:NANDO_2100259,
+        nando:NANDO_2200920,
+        nando:NANDO_2200921 .
+
+hum:hum0167 a sio:SIO_000756 ;
+    rdfs:label "Study to clarify the pathophysiology of gout / hyperuricemia and uric acid related diseases"@en,
+        "痛風・高尿酸血症及び尿酸関連疾患の病態解明に関する研究"@ja ;
+    dc:type "SNP-chip"@en,
+        "SNP-chip"@ja ;
+    dcterms:accessRights "Unrestricted-access"@en,
+        "非制限公開"@ja ;
+    dcterms:identifier "hum0167" .
+
+hum:hum0168 a sio:SIO_000756 ;
+    rdfs:label "Comprehensive genomic analyses of cancers"@en,
+        "悪性腫瘍のゲノム・エピゲノム解析による病態解明"@ja ;
+    dc:type "NGS (Exome)"@en,
+        "NGS （Exome）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0168" .
+
+hum:hum0169 a sio:SIO_000756 ;
+    rdfs:label "Molecular analysis to identify novel biomarker and therapeutic target for cerebrospinal tumor and preclinical investigation using patient derived orthotopic xenograft models."@en,
+        "脳脊髄腫瘍のバイオマーカーの探索と標的治療開発に向けた遺伝子解析及びヒト由来脳脊髄腫瘍細胞株を用いた前臨床研究"@ja ;
+    dc:type "NGS (Exome)"@en,
+        "NGS （Exome）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0169" .
+
+hum:hum0173 a sio:SIO_000756 ;
+    rdfs:label "A Study on the Health and Development of Children Beginning in the Fetal Period"@en,
+        "胎児期に始まる子どもの健康と発達に関する調査"@ja ;
+    dc:type "NGS  (RRBS)"@en,
+        "NGS （RRBS）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0173" .
+
+hum:hum0174 a sio:SIO_000756 ;
+    rdfs:label "Building a Database of Genomic Structural Variants in Japanese population"@en,
+        "日本人ゲノム構造変異データベースの作成"@ja ;
+    dc:type "NGS (WGS)"@en,
+        "NGS （WGS）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0174" .
+
+hum:hum0175 a sio:SIO_000756 ;
+    rdfs:label "Development of actionable molecular targets and/or biomarkers for prognostication and patient stratification in gynecological cancer based on whole-exome sequencing and epigenomic analysis"@en,
+        "治療抵抗性・再発予測バイオマーカーならびに新規分子標的治療法開発のための婦人科腫瘍検体の収集、保管ならびにゲノム・エピゲノム解析"@ja ;
+    dc:type "NGS (Exome, Target Capture)"@en,
+        "NGS （Exome、Target Capture）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0175" .
+
+hum:hum0176 a sio:SIO_000756 ;
+    rdfs:label "Comprehensive sequencing analyses of uterine and ovarian carcinosarcoma"@en,
+        "子宮及び卵巣がん肉腫におけるドライバー変異の体系的探索"@ja ;
+    dc:type "NGS (Exome, Target Capture)"@en,
+        "NGS （Exome、Target Capture）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0176" .
+
+hum:hum0177 a sio:SIO_000756 ;
+    rdfs:label "Genetic analysis assciated with malignance of brain tumor"@en,
+        "脳腫瘍の悪性化に関与する遺伝子の解析"@ja ;
+    dc:type "NGS (PBAT-seq, RNA-seq, ChIP-seq)"@en,
+        "NGS （PBAT-seq、RNA-seq、ChIP-seq）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0177" .
+
+hum:hum0179 a sio:SIO_000756 ;
+    rdfs:label "Shotgun metagenome analysis of oral microbiome in MRONJ and healthy individuals"@en,
+        "薬剤関連顎骨壊死における口腔内微生物叢メタゲノム解析"@ja ;
+    dc:type "Metagenome"@en,
+        "メタゲノム"@ja ;
+    dcterms:accessRights "Unrestricted-access Controlled-access (Type I)"@en,
+        "非制限公開 制限（Type I）"@ja ;
+    dcterms:identifier "hum0179" .
+
+hum:hum0180 a sio:SIO_000756 ;
+    rdfs:label "Genetic study and evaluation of small molecule compounds for congenital diseases and metabolic disorders caused by an aberrant RNA splicing"@en,
+        "RNAスプライシングの異常によって生じる先天異常症候群および先天代謝異常症等の遺伝子解析と低分子化合物によるその治療法の開発研究"@ja ;
+    dc:type "NGS (RNA-seq)"@en,
+        "NGS （RNA-seq）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0180" .
+
+hum:hum0181 a sio:SIO_000756 ;
+    rdfs:label "Aging of steroid production in the adrenal bland."@en,
+        "副腎皮質におけるアルドステロン産生の老化の解明"@ja ;
+    dc:type "Immunohistochemistry"@en,
+        "病理スライドガラス画像"@ja ;
+    dcterms:accessRights "Unrestricted-access"@en,
+        "非制限公開"@ja ;
+    dcterms:identifier "hum0181" .
+
+hum:hum0182 a sio:SIO_000756 ;
+    rdfs:label "Comprehansive analysis of somatic mutations and genetic variations with whole genome sequencing"@en,
+        "全ゲノムシークエンスデータの解析による変異と遺伝的多様性の包括的解析"@ja ;
+    dc:type "NGS (WGS, RNA-seq)"@en,
+        "NGS （WGS、RNA-seq）"@ja ;
+    dcterms:accessRights "Unrestricted-access Controlled-access (Type I)"@en,
+        "非制限公開 制限（Type I）"@ja ;
+    dcterms:identifier "hum0182" ;
+    rdfs:seeAlso nando:NANDO_2200047 .
+
+hum:hum0184 a sio:SIO_000756 ;
+    rdfs:label "Construction of Japanese Whole-Genome database"@en,
+        "日本人全ゲノムデータベースの構築"@ja ;
+    dc:type "NGS (WGS)"@en,
+        "NGS （WGS）"@ja ;
+    dcterms:accessRights "Controlled-access (Type II)"@en,
+        "制限（Type II）"@ja ;
+    dcterms:identifier "hum0184" .
+
+hum:hum0187 a sio:SIO_000756 ;
+    rdfs:label "Genomic and genetic analysis of digestive tract cancer and elucidation of its clinicopathological significance."@en,
+        "消化器癌のゲノム・遺伝子解析とその臨床病理学的意義の解明"@ja ;
+    dc:type "NGS (Target Capture, Exome, RNA-seq), Methylation array"@en,
+        "NGS （Target Capture、Exome、RNA-seq） メチル化アレイ"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0187" ;
+    rdfs:seeAlso nando:NANDO_2200047 .
+
+hum:hum0188 a sio:SIO_000756 ;
+    rdfs:label "Exploration for molecular targets in gastric cancer cell lines"@en,
+        "胃がん細胞株のゲノム解析による治療標的同定"@ja ;
+    dc:type "NGS (Exome, RNA-seq)"@en,
+        "NGS （Exome、RNA-seq）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0188" .
+
+hum:hum0191 a sio:SIO_000756 ;
+    rdfs:label "Development of personalized cancer vaccine targeting individual somatic mutations combined with immunoregulation of tumor microenvironment"@en,
+        "個々のがんの遺伝子変異に基づく固有抗原の同定と腫瘍内微小環境の解析に基づく免疫制御法を組み合わせた個別化がんワクチン治療の開発"@ja ;
+    dc:type "NGS (RNA-seq)"@en,
+        "NGS （RNA-seq）"@ja ;
+    dcterms:accessRights "Unrestricted-access"@en,
+        "非制限公開"@ja ;
+    dcterms:identifier "hum0191" .
+
+hum:hum0192 a sio:SIO_000756 ;
+    rdfs:label "A study to verify the usefulness of cell free DNA as a prognostic biomarker after radiation / proton therapy for oligometastasis in colorectal cancer patients"@en,
+        "大腸・直腸癌患者のオリゴメタスタシスに対する放射線・陽子線治療後予後予測バイオマーカーとしてcell free DNAの有用性を検証する研究"@ja ;
+    dc:type "NGS (Target Capture)"@en,
+        "NGS （Target Capture）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0192" .
+
+hum:hum0194 a sio:SIO_000756 ;
+    rdfs:label "Molecular mechanisms of drug resistance in cancer"@en,
+        "分子プロファイリングによる薬剤抵抗性機構の研究"@ja ;
+    dc:type "NGS (Target Capture)"@en,
+        "NGS （Target Capture）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0194" .
+
+hum:hum0195 a sio:SIO_000756 ;
+    rdfs:label "Comprehensive genetic analysis of gastrointestinal and hepatobiliary tumor"@en,
+        "消化器癌における遺伝子異常についての網羅的解析"@ja ;
+    dc:type "NGS (WGS, Exome, RNA-seq, Target Capture)"@en,
+        "NGS （WGS、Exome、RNA-seq、Target Capture）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0195" ;
+    rdfs:seeAlso nando:NANDO_2200047,
+        nando:NANDO_2200937 .
+
+hum:hum0196 a sio:SIO_000756 ;
+    rdfs:label "Identification of biomarker for suicide prevention using blood and brain samples of completed suicide"@en,
+        "自殺者血液および死後脳標本を用いた自殺に関連した生物学的マーカーの同定と自殺予防への応用に関する研究"@ja ;
+    dc:type "SNP-chip"@en,
+        "SNP-chip"@ja ;
+    dcterms:accessRights "Unrestricted-access"@en,
+        "非制限公開"@ja ;
+    dcterms:identifier "hum0196" .
+
+hum:hum0197 a sio:SIO_000756 ;
+    rdfs:label "Elucidation of disease state by multi-layered omics analysis"@en,
+        "多層的オミクス解析による疾患病態の解明"@ja ;
+    dc:type "Metagenome SNP-chip NGS (WGS, RNA-seq, scRNA-seq, snRNA-seq, snATAC-seq) Presence or absence of endogenous herpesvirus 6, anellovirus load proteimics"@en,
+        "メタゲノム SNP-chip NGS （WGS、RNA-seq、scRNA-seq、snRNA-seq、snATAC-seq） eHHV-6の有無、アネロウイルス量 プロテオミクス"@ja ;
+    dcterms:accessRights "Unrestricted-access Controlled-access (Type I)"@en,
+        "非制限公開 制限（Type I）"@ja ;
+    dcterms:identifier "hum0197" ;
+    rdfs:seeAlso nando:NANDO_1200020,
+        nando:NANDO_1200183,
+        nando:NANDO_1200444,
+        nando:NANDO_1200449,
+        nando:NANDO_1200747,
+        nando:NANDO_2200461,
+        nando:NANDO_2200850,
+        nando:NANDO_2200906,
+        nando:NANDO_2200920,
+        nando:NANDO_2200921 .
+
+hum:hum0199 a sio:SIO_000756 ;
+    rdfs:label "Identification of therapeutic target molecules in urological malignancies by using next generation sequencer"@en,
+        "次世代シーケンサーを用いた泌尿器悪性腫瘍の治療標的分子の同定"@ja ;
+    dc:type "NGS (RNA-seq)"@en,
+        "NGS （RNA-seq）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0199" .
+
+hum:hum0200 a sio:SIO_000756 ;
+    rdfs:label "Analysis of somatic mutations and gene expression abnormalities involved in mammary tumor phenotype"@en,
+        "乳腺腫瘍の表現型にかかわる体細胞変異および遺伝子発現異常の解析"@ja ;
+    dc:type "NGS (Exome, WGS, Target Capture, Visium Spatial Gene Expression, semi-bulk RNA-seq, scRNA-seq, EM-seq, t-nanoEM) CNV Methylation analysis Histological image Xenium In Situ Gene Expression"@en,
+        "NGS （Exome、WGS、Target Capture、Visium Spatial Gene Expression、semibulk RNA-seq、scRNA-seq、RNA-seq、EM-seq、t-nanoEM） CNV メチル化解析 病理画像 Xenium In Situ Gene Expression"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0200" .
+
+hum:hum0201 a sio:SIO_000756 ;
+    rdfs:label "Collection and transfer of human tumor samples and research using genomic information Transfer of existing samples and research using genomic information Reseach of searching gene mutations in gastrointestinal chronic inflammatory diseases"@en,
+        "ヒト腫瘍試料の収集・分譲とゲノム情報を利用した研究 既存試料の分譲とゲノム情報を利用した研究 消化器慢性炎症性疾患における遺伝子変異の検索"@ja ;
+    dc:type "NGS (Exome, WGS, RNA-seq, ChIP-seq, scRNA-seq, ATAC-seq)"@en,
+        "NGS （Exome、WGS、RNA-seq、ChIP-seq、scRNA-seq、ATAC-seq）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0201" .
+
+hum:hum0202 a sio:SIO_000756 ;
+    rdfs:label "Study of genetic background and time course of congenital hearing loss to increase efficacy of auditory, speech, and language therapy."@en,
+        "言語聴覚リハビリテーションの向上を目的とした先天性難聴の遺伝的原因と生後早期の経過の解明"@ja ;
+    dc:type "NGS (Exome)"@en,
+        "NGS （Exome）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0202" .
+
+hum:hum0203 a sio:SIO_000756 ;
+    rdfs:label "Establishment of an integrated database for clinical and genomic data in cancer"@en,
+        "造血器腫瘍における臨床ゲノム情報統合データベースの構築に関する研究"@ja ;
+    dc:type "NGS (Target Capture)"@en,
+        "NGS （Target Capture）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0203" .
+
+hum:hum0206 a sio:SIO_000756 ;
+    rdfs:label "Establishment and characterization of cell lines derived from pregnancy related diseases"@en,
+        "妊娠関連疾患の胎盤栄養膜細胞株の樹立と細胞特性に関する研究"@ja ;
+    dc:type "NGS (PBAT-seq, RNA-seq)"@en,
+        "NGS （PBAT-seq、RNA-seq）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0206" .
+
+hum:hum0207 a sio:SIO_000756 ;
+    rdfs:label "Analysis of gene polymorphism and gene expression in human immune cells"@en,
+        "ヒト免疫細胞における遺伝子多型と遺伝子発現の関連解析"@ja ;
+    dc:type "NGS (RNA-seq, ChIP-seq, Hi-C) eQTL"@en,
+        "NGS （RNA-seq、ChIP-seq、Hi-C） eQTL"@ja ;
+    dcterms:accessRights "Unrestricted-access"@en,
+        "非制限公開"@ja ;
+    dcterms:identifier "hum0207" .
+
+hum:hum0208 a sio:SIO_000756 ;
+    rdfs:label "Comprehensive genetic analysis and database construction for head and neck cancer"@en,
+        "頭頚部悪性腫瘍に対する網羅的遺伝子解析およびデータベースの構築"@ja ;
+    dc:type "NGS (Exome)"@en,
+        "NGS （Exome）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0208" .
+
+hum:hum0209 a sio:SIO_000756 ;
+    rdfs:label "Genetic and clinical prediction models for the efficacy and hepatotoxicity of methotrexate in patients with rheumatoid arthritis: a multicenter cohort study"@en,
+        "関節リウマチ治療におけるメトトレキサートの効果と副作用予測のための多施設研究"@ja ;
+    dc:type "SNP-chip Direct sequencing"@en,
+        "SNP-chip ダイレクトシークエンス"@ja ;
+    dcterms:accessRights "Unrestricted-access"@en,
+        "非制限公開"@ja ;
+    dcterms:identifier "hum0209" .
+
+hum:hum0210 a sio:SIO_000756 ;
+    rdfs:label "Comprehensive genomic analysis of hematological malignancies"@en,
+        "造血器腫瘍における遺伝子異常の網羅的解析"@ja ;
+    dc:type "NGS (Exome)"@en,
+        "NGS （Exome）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0210" .
+
+hum:hum0213 a sio:SIO_000756 ;
+    rdfs:label "Demographic History and Local Adaptation in Asian Population"@en,
+        "Demographic History and Local Adaptation in Asian Population"@ja ;
+    dc:type "NGS (WGS)"@en,
+        "NGS （WGS）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0213" .
+
+hum:hum0214 a sio:SIO_000756 ;
+    rdfs:label "Integrative understanding of human immune system by functional genomics and development of intervention strategies for the prevention of autoimmune diseases"@en,
+        "ヒト免疫系の機能ゲノム学による統合的理解とこれを用いた免疫疾患の発症予防のためのインターベンション戦略の構築"@ja ;
+    dc:type "NGS (RNA-seq, scRNA-seq) eQTL BCR repertoire analysis"@en,
+        "NGS （RNA-seq、scRNA-seq） eQTL B細胞受容体レパトア解析"@ja ;
+    dcterms:accessRights "Unrestricted-access Controlled-access (Type I)"@en,
+        "非制限公開 制限（Type I）"@ja ;
+    dcterms:identifier "hum0214" ;
+    rdfs:seeAlso nando:NANDO_1200251,
+        nando:NANDO_1200272,
+        nando:NANDO_1200277,
+        nando:NANDO_1200278,
+        nando:NANDO_1200279,
+        nando:NANDO_1200282,
+        nando:NANDO_1200284,
+        nando:NANDO_2200416,
+        nando:NANDO_2200420,
+        nando:NANDO_2200422,
+        nando:NANDO_2200423,
+        nando:NANDO_2200429,
+        nando:NANDO_2200430 .
+
+hum:hum0215 a sio:SIO_000756 ;
+    rdfs:label "Whole genome and RNA analysis of geriatric disease in Japanese"@en,
+        "日本人の全ゲノム、RNA解析を基盤とした老年病関連分子の同定と解析"@ja ;
+    dc:type "NGS (RNA-seq)"@en,
+        "NGS （RNA-seq）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0215" .
+
+hum:hum0216 a sio:SIO_000756 ;
+    rdfs:label "Analyses of immune status of patients with solid tumors including gastrointestinal cancer Investigation of anti-tumor immunological response in solid tumors"@en,
+        "消化管癌を含む固形癌患者における免疫状態の解明と臨床的意義に関する研究 新規免疫療法や併用療法開発を目指した固形癌患者の免疫状態の解析"@ja ;
+    dc:type "NGS (Exome)"@en,
+        "NGS （Exome）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0216" ;
+    rdfs:seeAlso nando:NANDO_2200077 .
+
+hum:hum0217 a sio:SIO_000756 ;
+    rdfs:label "Identification of genetic alterations predicting cancer progression from colorectal polyps"@en,
+        "大腸ポリープから癌への進展を予測する遺伝子変化の同定"@ja ;
+    dc:type "NGS (Target Capture)"@en,
+        "NGS （Target Capture）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0217" .
+
+hum:hum0218 a sio:SIO_000756 ;
+    rdfs:label "Gene expression analysis in systemic sclerosis"@en,
+        "全身性強皮症患者の遺伝子発現解析"@ja ;
+    dc:type "NGS (scRNA-seq)"@en,
+        "NGS （scRNA-seq）"@ja ;
+    dcterms:accessRights "Unrestricted-access"@en,
+        "非制限公開"@ja ;
+    dcterms:identifier "hum0218" ;
+    rdfs:seeAlso nando:NANDO_1200277,
+        nando:NANDO_2200429 .
+
+hum:hum0220 a sio:SIO_000756 ;
+    rdfs:label "A study of influence of storage condition after blood collection on the plasma/serum comcentrations of compounds"@en,
+        "採血後の試験管保存状態が試験管内の化合物濃度に与える影響の研究"@ja ;
+    dc:type "LC-MS/MS"@en,
+        "LC-MS/MS"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0220" .
+
+hum:hum0221 a sio:SIO_000756 ;
+    rdfs:label "Genetic study using human disease-specific iPS cells"@en,
+        "ヒト疾患特異的iPS細胞を用いた遺伝子解析研究"@ja ;
+    dc:type "NGS (RNA-seq)"@en,
+        "NGS （RNA-seq）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0221" ;
+    rdfs:seeAlso nando:NANDO_1200157,
+        nando:NANDO_2200563 .
+
+hum:hum0222 a sio:SIO_000756 ;
+    rdfs:label "Identification of responsible genes and development of standardized medicine for familial breast cancer by genetic analysis with NGS technology"@en,
+        "NGS技術を駆使した遺伝学的解析による家族性乳がんの原因遺伝子同定と標準化医療構築"@ja ;
+    dc:type "NGS (Target Capture)"@en,
+        "NGS （Target Capture）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0222" .
+
+hum:hum0223 a sio:SIO_000756 ;
+    rdfs:label "The analyses of gene mutations in hematology malignancy"@en,
+        "血液がんにおける遺伝子変異の解析"@ja ;
+    dc:type "NGS (Target Capture)"@en,
+        "NGS （Target Capture）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0223" .
+
+hum:hum0225 a sio:SIO_000756 ;
+    rdfs:label "Mortality and risk of progression to adult T-cell leukemia/lymphoma in patients with HTLV-1-associated myelopathy/tropical spastic paraparesis"@en,
+        "HTLV-1関連脊髄症（HAM）におけるゲノム異常及びエピゲノム異常の解析"@ja ;
+    dc:type "NGS (Target Capture, RNA-seq, ATAC-seq, scRNA-seq, scATAC-seq)"@en,
+        "NGS （Target Capture、RNA-seq、ATAC-seq、scRNA-seq、scATAC-seq）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0225" ;
+    rdfs:seeAlso nando:NANDO_1200206 .
+
+hum:hum0226 a sio:SIO_000756 ;
+    rdfs:label "Genomic and genetic analysis of upper gastrointestinal tumors and elucidation of its clinicopathological significance."@en,
+        "上部消化管腫瘍のゲノム・遺伝子解析とその臨床病理学的意義の解明"@ja ;
+    dc:type "NGS (Exome, RNA-seq)"@en,
+        "NGS （Exome、RNA-seq）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0226" .
+
+hum:hum0227 a sio:SIO_000756 ;
+    rdfs:label "Genomic and genetic analysis of gastric tumors and elucidation of its clinicopathological significance."@en,
+        "胃腫瘍のゲノム・遺伝子解析とその臨床病理学的意義の解明"@ja ;
+    dc:type "NGS (Exome, RNA-seq)"@en,
+        "NGS （Exome、RNA-seq）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0227" .
+
+hum:hum0229 a sio:SIO_000756 ;
+    rdfs:label "Identification and characterization of molecular markers in aging and neuronal disorders"@en,
+        "老化・神経疾患における分子マーカーの探索と分子基盤の解明"@ja ;
+    dc:type "NGS (scRNA-seq)"@en,
+        "NGS （scRNA-seq）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0229" .
+
+hum:hum0231 a sio:SIO_000756 ;
+    rdfs:label "A study for the establishment of disease-specific iPS cells."@en,
+        "ヒト疾患特異的iPS細胞樹立に関する研究"@ja ;
+    dc:type "NGS (Exome)"@en,
+        "NGS （Exome）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0231" .
+
+hum:hum0232 a sio:SIO_000756 ;
+    rdfs:label "Evaluation of metastasis and recurrence by monitoring circulating tumor DNA of gastric cancer"@en,
+        "胃癌由来循環腫瘍DNAモニタリングによる転移・再発の検証"@ja ;
+    dc:type "NGS (Target Capture)"@en,
+        "NGS （Target Capture）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0232" .
+
+hum:hum0233 a sio:SIO_000756 ;
+    rdfs:label "Paediatric Hepatic International Tumour Trial (JPLT4: PHITT)"@en,
+        "小児肝癌に対する国際共同臨床試験（PHITT, JPLT4）付随研究"@ja ;
+    dc:type "NGS (Exome, RNA-seq, WGBS) SNP-chip Methylation array"@en,
+        "NGS （Exome、RNA-seq、WGBS） SNP-chip メチル化アレイ"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0233" ;
+    rdfs:seeAlso nando:NANDO_2200046,
+        nando:NANDO_2200047 .
+
+hum:hum0235 a sio:SIO_000756 ;
+    rdfs:label "Evaluation and imaging study of the preclinical stage of Alzheimer's disease in Japan"@en,
+        "フ$309Aレクリニカル期におけるアルツハイマー病に対する客観的画像診断・評価法の確立を目指す臨床研究"@ja ;
+    dc:type "Neuroimage Clinical Info"@en,
+        "脳画像 臨床情報"@ja ;
+    dcterms:accessRights "Unrestricted-access Controlled-access (Type I)"@en,
+        "非制限公開 制限（Type I）"@ja ;
+    dcterms:identifier "hum0235" .
+
+hum:hum0236 a sio:SIO_000756 ;
+    rdfs:label "Development of tumor infiltrating lymphocytes therapy targeting gene mutation of lung cancer"@en,
+        "肺がんの複雑な遺伝子変異を利用した腫瘍浸潤リンパ球療法の開発を目指した基礎的検討"@ja ;
+    dc:type "NGS (Exome, RNA-seq)"@en,
+        "NGS （Exome、RNA-seq）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0236" .
+
+hum:hum0237 a sio:SIO_000756 ;
+    rdfs:label "Whole genome and RNA analysis of geriatric disease in Japanese"@en,
+        "日本人の全ゲノム、RNA解析を基盤とした老年病関連分子の同定と解析"@ja ;
+    dc:type "SNP-chip"@en,
+        "SNP-chip"@ja ;
+    dcterms:accessRights "Unrestricted-access"@en,
+        "非制限公開"@ja ;
+    dcterms:identifier "hum0237" .
+
+hum:hum0238 a sio:SIO_000756 ;
+    rdfs:label "Development of personalized medicine"@en,
+        "オーダーメイド医療開発プロジェクト"@ja ;
+    dc:type "NGS (WGS)"@en,
+        "NGS （WGS）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0238" .
+
+hum:hum0239 a sio:SIO_000756 ;
+    rdfs:label "Genomic and Proteomic comprehensive analysis related to cancer, infectious diseases, intractable diseases and lifestyle-related diseases"@en,
+        "がん、感染症、難病、生活習慣病等に関する遺伝子とタンパク質などの網羅的解析"@ja ;
+    dc:type "NGS (Target Capture)"@en,
+        "NGS （Target Capture）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0239" .
+
+hum:hum0240 a sio:SIO_000756 ;
+    rdfs:label "Whole genome sequence analysis in patients with primary central nervous system lymphomas"@en,
+        "中枢神経原発悪性リンパ腫の全ゲノムシーケンス解析"@ja ;
+    dc:type "NGS (Target Capture)"@en,
+        "NGS （Target Capture）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0240" .
+
+hum:hum0242 a sio:SIO_000756 ;
+    rdfs:label "Frequent post-treatment monitoring of colorectal cancer using individualized ctDNA validated by multi-regional molecular profiling"@en,
+        "変異遺伝子のモニタリングによる大腸癌術後の微少転移及び再発の新たな評価法の検証"@ja ;
+    dc:type "NGS (Target Capture)"@en,
+        "NGS （Target Capture）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0242" .
+
+hum:hum0243 a sio:SIO_000756 ;
+    rdfs:label "Development of humanized mice for human immunity research/Construction of disease and treatment model using iPS cells derived from human hematopoitec cells."@en,
+        "ヒト化マウス（humanized mouse）の作製と免疫学研究への応用/ヒト・造血免疫系由来iPS細胞を用いた疾患と治療モデルの構築"@ja ;
+    dc:type "NGS (RNA-seq, CAGE-seq)"@en,
+        "NGS （RNA-seq、CAGE-seq）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0243" .
+
+hum:hum0245 a sio:SIO_000756 ;
+    rdfs:label "Comprehensive Genome analysis of adult acute lymphoblastic leukemia (JALSG ALL202U-GWS)"@en,
+        "思春期・若年成人急性リンパ芽球性白血病における網羅的ゲノム解析（JALSG ALL202U-GWS）"@ja ;
+    dc:type "NGS (Target Capture)"@en,
+        "NGS （Target Capture）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0245" .
+
+hum:hum0247 a sio:SIO_000756 ;
+    rdfs:label "Research for gene mutations in cancer representing immune status of the patients"@en,
+        "がん患者免疫状態を反映するがん遺伝子変異の探索"@ja ;
+    dc:type "NGS (Exome)"@en,
+        "NGS （Exome）"@ja ;
+    dcterms:accessRights "Unrestricted-access Controlled-access (Type I)"@en,
+        "非制限公開 制限（Type I）"@ja ;
+    dcterms:identifier "hum0247" ;
+    rdfs:seeAlso nando:NANDO_2200077 .
+
+hum:hum0248 a sio:SIO_000756 ;
+    rdfs:label "Establishment of a Japanese reference genome sequence by high-precision long-read sequencing"@en,
+        "高精度長鎖解読による日本人基準ゲノム配列策定"@ja ;
+    dc:type "NGS (WGS)"@en,
+        "NGS （WGS）"@ja ;
+    dcterms:accessRights "Unrestricted-access Controlled-access (Type II)"@en,
+        "非制限公開 制限（Type II）"@ja ;
+    dcterms:identifier "hum0248" .
+
+hum:hum0249 a sio:SIO_000756 ;
+    rdfs:label "Elucidation of pathological conditions and development of therapeutic methods using iPS cells derived from patients with hard tissue/connective tissue related diseases"@en,
+        "硬組織・結合組織関連疾患患者由来iPS細胞を用いた病態解明と治療法開発"@ja ;
+    dc:type "NGS (CAGE-seq, scRNA-seq, CUT＆RUN-seq)"@en,
+        "NGS （CAGE-seq、scRNA-seq、CUT&RUN-seq）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0249" .
+
+hum:hum0250 a sio:SIO_000756 ;
+    rdfs:label "Brain Mapping by Integrated Neurotechnologies for Disease Studies: Human Brain Aging Imaging Study"@en,
+        "革新脳脳老化ヒト画像研究"@ja ;
+    dc:type "Neuroimage Clinical Info"@en,
+        "脳画像 臨床情報"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0250" .
+
+hum:hum0251 a sio:SIO_000756 ;
+    rdfs:label "Phase II clinical trial of adult Philadelphia chromosome-negative precursor B-cell acute lymphocytic leukemia with combination chemotherapy"@en,
+        "成人フィラデルフィア染色体陰性precursor B細胞性急性リンパ性白血病に対する多剤併用化学療法による第Ⅱ相臨床試験"@ja ;
+    dc:type "NGS (RNA-seq, Target Capture)"@en,
+        "NGS （RNA-seq、Target Capture）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0251" ;
+    rdfs:seeAlso nando:NANDO_2200001 .
+
+hum:hum0252 a sio:SIO_000756 ;
+    rdfs:label "Study for molecular characteristics of adult T-cell leukemia-lymphoma and HTLV-1-associated diseases"@en,
+        "ATL、HTLV-1感染症の分子基盤創出のための研究"@ja ;
+    dc:type "NGS （Target Capture, RNA-seq, scRNA-seq, WGS, scATAC-seq, ChIP-seq）"@en,
+        "NGS （Target Capture、RNA-seq、scRNA-seq、WGS、scATAC-seq、ChIP-seq）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0252" .
+
+hum:hum0254 a sio:SIO_000756 ;
+    rdfs:label "Development of sequencing library preparation method from cell-free DNA in blood"@en,
+        "血中セルフリーDNAからの配列決定ライブラリー調製法の開発"@ja ;
+    dc:type "NGS (WGS)"@en,
+        "NGS （WGS）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0254" .
+
+hum:hum0257 a sio:SIO_000756 ;
+    rdfs:label "Development of culturing methods amplifying micro-specimens derived from human pancreas and biliary tract tissues"@en,
+        "ヒト膵・胆道由来微量検体を用いた培養増幅法の研究開発"@ja ;
+    dc:type "NGS (Exome, RNA-seq, ATAC-seq, ChIP-seq, Hi-C)"@en,
+        "NGS （Exome、RNA-seq、ATAC-seq、ChIP-seq、Hi-C）"@ja ;
+    dcterms:accessRights "Unrestricted-access Controlled-access (Type I)"@en,
+        "非制限公開 制限（Type I）"@ja ;
+    dcterms:identifier "hum0257" .
+
+hum:hum0261 a sio:SIO_000756 ;
+    rdfs:label "Genome-wide association study of primary biliary cholangitis (PBC) －an additional study of 1,000 Japanese PBC patients－"@en,
+        "原発性胆汁性胆管炎の病態解明のためのゲノムワイド関連解析 ― 1,000 症例の追加解析 ―"@ja ;
+    dc:type "SNP-chip"@en,
+        "SNP-chip"@ja ;
+    dcterms:accessRights "Unrestricted-access"@en,
+        "非制限公開"@ja ;
+    dcterms:identifier "hum0261" ;
+    rdfs:seeAlso nando:NANDO_1200439 .
+
+hum:hum0262 a sio:SIO_000756 ;
+    rdfs:label "Identification of biomarkers for prediction of efficacy of microtubule inhibitors and antifolates in non-small cell lung cancer"@en,
+        "非小細胞肺癌における微小管阻害薬および葉酸代謝阻害薬感受性のバイオマーカー研究"@ja ;
+    dc:type "NGS (RNA-seq)"@en,
+        "NGS （RNA-seq）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0262" .
+
+hum:hum0263 a sio:SIO_000756 ;
+    rdfs:label "Comprehensive analysis of the abnormality of the genes in juvenile myelomonocytic leukemia"@en,
+        "若年性骨髄単球性白血病における遺伝子異常の網羅的解析"@ja ;
+    dc:type "NGS (DREAM-seq)"@en,
+        "NGS （DREAM-seq）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0263" ;
+    rdfs:seeAlso nando:NANDO_2200015 .
+
+hum:hum0264 a sio:SIO_000756 ;
+    rdfs:label "Elucidation of the pathogenesis and identification of susceptibility genes for sleep disorders by genetic and functional analyses."@en,
+        "過眠を呈する睡眠障害 (各種過眠症・概日リズム睡眠障害・睡眠時無呼吸症候群・睡眠関連運動障害・睡眠時随伴症など) の病態に関与する遺伝子の探索とその機能および末梢血リンパ球の自己抗原特異的増殖反応の研究"@ja ;
+    dc:type "SNP-chip"@en,
+        "SNP-chip"@ja ;
+    dcterms:accessRights "Unrestricted-access Controlled-access (Type I)"@en,
+        "非制限公開 制限（Type I）"@ja ;
+    dcterms:identifier "hum0264" .
+
+hum:hum0266 a sio:SIO_000756 ;
+    rdfs:label "Elucidation of the pathogenesis of autoimmune dermatosis using patient samples."@en,
+        "患者検体を用いた自己免疫性皮膚疾患発症機序の解明"@ja ;
+    dc:type "NGS (scRNA-seq)"@en,
+        "NGS （scRNA-seq）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0266" ;
+    rdfs:seeAlso nando:NANDO_1200228 .
+
+hum:hum0267 a sio:SIO_000756 ;
+    rdfs:label "Comprehensive gene mutation analysis of cancer-predisposing genes and cancer-causing genes in pediatric cancer/hematologic disease."@en,
+        "小児がん・血液疾患患者に対するがん素因遺伝子およびがん細胞における原因遺伝子の網羅的遺伝子解析研究"@ja ;
+    dc:type "NGS (RNA-seq)"@en,
+        "NGS （RNA-seq）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0267" .
+
+hum:hum0268 a sio:SIO_000756 ;
+    rdfs:label "Direct and comprehensive identification of neoantigens using cancer tissues"@en,
+        "がん組織を用いたネオアンチゲンスクリーニング"@ja ;
+    dc:type "NGS (Iso-seq, CAGE-seq, RNA-seq, scRNA-seq, scTCR-seq, Exome)"@en,
+        "NGS （Iso-seq、CAGE-seq、RNA-seq、scRNA-seq、scTCR-seq、Exome）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0268" .
+
+hum:hum0269 a sio:SIO_000756 ;
+    rdfs:label "Sensitive gene analysis of hereditary cardiovascular disease"@en,
+        "遺伝性心血管疾患の感受性遺伝子解析研究"@ja ;
+    dc:type "NGS (Exome, RNA-seq)"@en,
+        "NGS （Exome、RNA-seq）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0269" .
+
+hum:hum0270 a sio:SIO_000756 ;
+    rdfs:label "Translational research for elucidating molecular and pathological abnormalities specific to bone and soft tissue tumors based on genomic and genetic analysis, and for developing new diagnostic and therapeutic strategies"@en,
+        "ゲノムおよび遺伝子解析に基づく骨軟部腫瘍に特異的な分子病理学的異常の解明と、新規診断および治療法の開発を目指したトランスレーショナル研究"@ja ;
+    dc:type "NGS (Target Capture)"@en,
+        "NGS （Target Capture）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0270" ;
+    rdfs:seeAlso nando:NANDO_2200048 .
+
+hum:hum0271 a sio:SIO_000756 ;
+    rdfs:label "Comprehensive genome analysis related to individual differences in phenotypic expression in autosomal dominant diseases caused by haploinsufficiency"@en,
+        "ハプロ不全により発症する常染色体優性遺伝性疾患における表現型発現の個体差に関する包括的ゲノム解析研究"@ja ;
+    dc:type "NGS (Target Capture, Target RNA-seq)"@en,
+        "NGS （Target Capture、Target RNA-seq）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0271" ;
+    rdfs:seeAlso nando:NANDO_1200226,
+        nando:NANDO_2201003 .
+
+hum:hum0272 a sio:SIO_000756 ;
+    rdfs:label "Analysis of the immune status of melanoma and other skin tumors"@en,
+        "メラノーマ等、皮膚腫瘍病変の免疫状態の解析"@ja ;
+    dc:type "NGS (Exome, RNA-seq, scRNA-seq, scTCR-seq, Target Capture)"@en,
+        "NGS （Exome、RNA-seq、scRNA-seq、scTCR-seq、Target Capture）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0272" ;
+    rdfs:seeAlso nando:NANDO_2200077 .
+
+hum:hum0273 a sio:SIO_000756 ;
+    rdfs:label "A study of molecular pathology for carcinogenesis and progression of breast cancer"@en,
+        "乳癌の発生、進展に関する分子病理学的研究"@ja ;
+    dc:type "NGS (Amplicon-seq)"@en,
+        "NGS （Amplicon-seq）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0273" .
+
+hum:hum0274 a sio:SIO_000756 ;
+    rdfs:label "Integrated analysis of selective mRNA export by mRNA export factors, UAP56 and URH49"@en,
+        "mRNA輸送因子UAP56とURH49による選択的mRNA輸送基盤の統合的解析"@ja ;
+    dc:type "NGS (RNA-seq)"@en,
+        "NGS （RNA-seq）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0274" .
+
+hum:hum0275 a sio:SIO_000756 ;
+    rdfs:label "Comprehensive analysis of genetic abnormalities in solid tumors"@en,
+        "固形腫瘍における遺伝子異常の網羅的解析"@ja ;
+    dc:type "NGS (Exome)"@en,
+        "NGS （Exome）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0275" .
+
+hum:hum0276 a sio:SIO_000756 ;
+    rdfs:label "Development of a general-purpose genetic diagnostic panel for Gorlin syndrome and its application to liquid biopsy"@en,
+        "Gorlin症候群に対する汎用型遺伝子診断パネルの開発とリキッドバイオプシーへの応用"@ja ;
+    dc:type "NGS (Target Capture)"@en,
+        "NGS （Target Capture）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0276" ;
+    rdfs:seeAlso nando:NANDO_2200828 .
+
+hum:hum0277 a sio:SIO_000756 ;
+    rdfs:label "Analysis of genes related to the oncogenesis, progression or effectiveness of drug therapies of urological tumors"@en,
+        "泌尿器科領域の腫瘍性疾患の発症、進展、及び薬剤の治療効果に関わる遺伝子の解析"@ja ;
+    dc:type "NGS (scRNA-seq, Exome, RNA-seq, WGS)"@en,
+        "NGS （scRNA-seq、Exome、RNA-seq、WGS）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0277" ;
+    rdfs:seeAlso nando:NANDO_2200045,
+        nando:NANDO_2200829 .
+
+hum:hum0278 a sio:SIO_000756 ;
+    rdfs:label "Analysis of genome of breast cancer stem cells"@en,
+        "乳癌幹細胞のゲノム解析"@ja ;
+    dc:type "NGS (Exome, scRNA-seq)"@en,
+        "NGS （Exome、scRNA-seq）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0278" .
+
+hum:hum0279 a sio:SIO_000756 ;
+    rdfs:label "Stratification of refractory malignant lymphoma by genomic/epigenomic analysis and immunohistochemistry and development of novel therapeutic approaches"@en,
+        "ゲノム・エピゲノム解析と免疫組織染色による難治性悪性リンパ腫の層別化と新規治療法の開発"@ja ;
+    dc:type "NGS (Target Capture)"@en,
+        "NGS （Target Capture）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0279" .
+
+hum:hum0280 a sio:SIO_000756 ;
+    rdfs:label "The research for the identification of neoantigen and tumor immune microenvironment in lung cancer"@en,
+        "肺癌患者における標的抗原の同定とがん微小環境の解析"@ja ;
+    dc:type "NGS (RNA-seq)"@en,
+        "NGS （RNA-seq）"@ja ;
+    dcterms:accessRights "Unrestricted-access"@en,
+        "非制限公開"@ja ;
+    dcterms:identifier "hum0280" .
+
+hum:hum0284 a sio:SIO_000756 ;
+    rdfs:label "Elucidation of the molecular mechanism that controls the transition from precancerous lesions to invasive cancer due to disruption of biological maintenance function"@en,
+        "生体維持機能の破綻による前がん病変から浸潤がんへの移行を制御する分子機序の解明"@ja ;
+    dc:type "NGS (scRNA-seq)"@en,
+        "NGS （scRNA-seq）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0284" .
+
+hum:hum0286 a sio:SIO_000756 ;
+    rdfs:label "Elucidation of molecular mechanism of NAFLD-HCC"@en,
+        "非アルコール性脂肪性肝疾患患者における肝癌発症・進展機序の解明"@ja ;
+    dc:type "NGS (Visium Spatial Gene Expression, Target Capture) Histological image"@en,
+        "NGS （Visium Spatial Gene Expression、Target Capture） 病理画像"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0286" ;
+    rdfs:seeAlso nando:NANDO_2200047 .
+
+hum:hum0287 a sio:SIO_000756 ;
+    rdfs:label "Genome sequence comparison of human iPS cell lines"@en,
+        "ヒトiPS細胞株のゲノム配列比較"@ja ;
+    dc:type "NGS (WGS)"@en,
+        "NGS （WGS）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0287" .
+
+hum:hum0289 a sio:SIO_000756 ;
+    rdfs:label "Mechanisms on relapse after allogeneic hematopoietic cell transplantation in CMML"@en,
+        "慢性骨髄単球性白血病（CMML）における同種移植後再発メカニズムの探索"@ja ;
+    dc:type "NGS (RNA-seq, Exome) Methylation array"@en,
+        "NGS （RNA-seq、Exome） メチル化アレイ"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0289" ;
+    rdfs:seeAlso nando:NANDO_2200014 .
+
+hum:hum0290 a sio:SIO_000756 ;
+    rdfs:label "Comprehensive analysis of interaction between human gene expression and environmental metagenomes."@en,
+        "ヒトゲノム・遺伝子発現および細菌叢の環境因子との相互作用に関する網羅的解析（２）"@ja ;
+    dc:type "NGS (WGS, scRNA-seq, TCR-seq, BCR-seq, scATAC-seq) Proteomics Methylation array"@en,
+        "NGS （WGS、scRNA-seq、TCR-seq、BCR-seq、scATAC-seq） プロテオミクス メチル化アレイ"@ja ;
+    dcterms:accessRights "Unrestricted-access Controlled-access (Type I)"@en,
+        "非制限公開 制限（Type I）"@ja ;
+    dcterms:identifier "hum0290" .
+
+hum:hum0291 a sio:SIO_000756 ;
+    rdfs:label "Elucidation of molecular mechanisms of tumorigenesis and development of diagnoses and treatments based on comprehensive genomic analyses in pancreatic tumors, duodenal tumors and biliary tumors"@en,
+        "網羅的ゲノム解析による膵腫瘍ならびに十二指腸腫瘍、胆道腫瘍の本態解明と新規診断・治療法の開発"@ja ;
+    dc:type "NGS (WGS, Exome, RNA-seq)"@en,
+        "NGS （WGS、Exome、RNA-seq）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0291" .
+
+hum:hum0292 a sio:SIO_000756 ;
+    rdfs:label "Development of blood-based biomarkers for precision medicine in castration-resistant prostate cancer"@en,
+        "去勢抵抗性前立腺癌の最適医療の実現に向けた血液ゲノムマーカーの開発"@ja ;
+    dc:type "NGS (Target Capture)"@en,
+        "NGS （Target Capture）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0292" .
+
+hum:hum0293 a sio:SIO_000756 ;
+    rdfs:label "Exploratory research of genetic factors that regulate the therapeutic sensitivity of hematopoietic malignancy"@en,
+        "造血器腫瘍・難治性腫瘍の治療感受性を規定する遺伝学的宿主側因子、腫瘍側因子の探索研究"@ja ;
+    dc:type "NGS (WGS)"@en,
+        "NGS （WGS）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0293" .
+
+hum:hum0294 a sio:SIO_000756 ;
+    rdfs:label "Single cell analysis of tumor-infiltrating T cells"@en,
+        "腫瘍浸潤T細胞サブセットのシングルセル解析"@ja ;
+    dc:type "NGS (Exome, RNA-seq)"@en,
+        "NGS （Exome、RNA-seq）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0294" .
+
+hum:hum0295 a sio:SIO_000756 ;
+    rdfs:label "Search for biomarkers for diagnosis, evaluation of therapeutic effect, and follow-up of skin tumors (prospective observational study)"@en,
+        "皮膚腫瘍の診断と治療効果の評価および経過観察のためのバイオマーカーの探索（前向き観察研究）"@ja ;
+    dc:type "NGS (Amplicon-seq)"@en,
+        "NGS （Amplicon-seq）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0295" ;
+    rdfs:seeAlso nando:NANDO_2200077 .
+
+hum:hum0297 a sio:SIO_000756 ;
+    rdfs:label "Comprehensive study of color vision diversity"@en,
+        "色覚多様性の総合的研究"@ja ;
+    dc:type "NGS (WGS)"@en,
+        "NGS （WGS）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0297" .
+
+hum:hum0299 a sio:SIO_000756 ;
+    rdfs:label "Analysis of chromosome background of cancerous mutations using a long read sequencer"@en,
+        "ロングリードシークエンサーを用いたがん突然変異の染色体背景の解析"@ja ;
+    dc:type "NGS (WGS)"@en,
+        "NGS （WGS）"@ja ;
+    dcterms:accessRights "Unrestricted-access"@en,
+        "非制限公開"@ja ;
+    dcterms:identifier "hum0299" .
+
+hum:hum0300 a sio:SIO_000756 ;
+    rdfs:label "Whole-genome and whole-exome analyses of cancer"@en,
+        "がんの全ゲノム・全エキソンシークエンス解析"@ja ;
+    dc:type "NGS (Exome, RNA-seq)"@en,
+        "NGS （Exome、RNA-seq）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0300" .
+
+hum:hum0301 a sio:SIO_000756 ;
+    rdfs:label "An integrative analysis study of genomic abnormalities and immune status in breast cancer patients and high-risk individuals (Immuno-Genome Atlas Project)"@en,
+        "乳がん患者および高リスク者におけるゲノム異常と免疫状態との統合的解析研究（免疫ゲノムアトラスプロジェクト）"@ja ;
+    dc:type "NGS (Target Capture)"@en,
+        "NGS （Target Capture）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0301" .
+
+hum:hum0302 a sio:SIO_000756 ;
+    rdfs:label "iPS Cell Advanced Characterization and Development of modified iPS cells"@en,
+        "iPS細胞の高次特性解析と加工iPS細胞の作製"@ja ;
+    dc:type "NGS (RNA-seq)"@en,
+        "NGS （RNA-seq）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0302" ;
+    rdfs:seeAlso nando:NANDO_1200655,
+        nando:NANDO_2200579 .
+
+hum:hum0304 a sio:SIO_000756 ;
+    rdfs:label "Exome sequencing of human breast cancer tissues resistant to taxanes."@en,
+        "乳がんにおけるタキサン作用機序の解明に関する研究"@ja ;
+    dc:type "NGS (Exome)"@en,
+        "NGS （Exome）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0304" .
+
+hum:hum0305 a sio:SIO_000756 ;
+    rdfs:label "A multicenter study of biological and genetic manifestations of subsequent solid cancers after hematopoietic cell transplantation"@en,
+        "造血細胞移植後二次がんの細胞遺伝学的特徴に関する多施設後方視的研究"@ja ;
+    dc:type "NGS (Exome)"@en,
+        "NGS （Exome）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0305" .
+
+hum:hum0306 a sio:SIO_000756 ;
+    rdfs:label "Cancer Genome Sequencing Analysis"@en,
+        "国際連携によるがんゲノムシークエンス解析 （シークエンス解析によるがんゲノム研究）"@ja ;
+    dc:type "NGS (WGS)"@en,
+        "NGS （WGS）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0306" ;
+    rdfs:seeAlso nando:NANDO_2200047 .
+
+hum:hum0307 a sio:SIO_000756 ;
+    rdfs:label "Analysis for skin molecules in patients with atopic dermatitis No.2."@en,
+        "アトピー性皮膚炎患者における皮膚成分の解析（２）"@ja ;
+    dc:type "NGS (RNA-seq)"@en,
+        "NGS （RNA-seq）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0307" .
+
+hum:hum0308 a sio:SIO_000756 ;
+    rdfs:label "Circadian rhythm of skin molecules."@en,
+        "皮膚成分の日間、日内変動解析試験"@ja ;
+    dc:type "NGS (RNA-seq)"@en,
+        "NGS （RNA-seq）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0308" .
+
+hum:hum0309 a sio:SIO_000756 ;
+    rdfs:label "Comparison between sebum and stratum corneum molecules."@en,
+        "皮脂及び角層由来成分のプロファイル比較試験"@ja ;
+    dc:type "NGS (RNA-seq)"@en,
+        "NGS （RNA-seq）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0309" .
+
+hum:hum0311 a sio:SIO_000756 ;
+    rdfs:label "Management of Biobank Japan and the investigation of disease biomarkers for the realization of personalized medicine Discovery of disease makers from disease cohort network"@en,
+        "バイオバンク・ジャパンの運営・管理と個別化医療の実現に向けた疾患バイオマーカー探索 疾患コホート研究ネットワークによる疾患マーカー探索研究"@ja ;
+    dc:type "SNP-chip Metabolome Proteomics"@en,
+        "SNP-chip メタボローム プロテオミクス"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0311" .
+
+hum:hum0312 a sio:SIO_000756 ;
+    rdfs:label "Genetic study of complex diseases through comprehensive analysis of functional variants"@en,
+        "機能性遺伝子多型の網羅的解析を介した多因子疾患の病態解明"@ja ;
+    dc:type "NGS (RNA-seq, Iso-seq)"@en,
+        "NGS （RNA-seq、Iso-seq）"@ja ;
+    dcterms:accessRights "Unrestricted-access"@en,
+        "非制限公開"@ja ;
+    dcterms:identifier "hum0312" .
+
+hum:hum0314 a sio:SIO_000756 ;
+    rdfs:label "Analysis of the relationship between disease phenotype and genotype in patients with Alzheimer's disease"@en,
+        "アルツハイマー型認知症患者を対象とした疾患表現型と遺伝型の関連性解析"@ja ;
+    dc:type "SNP-chip"@en,
+        "SNP-chip"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0314" .
+
+hum:hum0315 a sio:SIO_000756 ;
+    rdfs:label "Comprehensive analysis of genetic alterations in hematological malignancies"@en,
+        "造血器腫瘍における遺伝子異常の網羅的解析"@ja ;
+    dc:type "NGS (Exome, RNA-seq, scRNA-seq, ChIP-seq, Target Capture) Methylation array"@en,
+        "NGS （Exome、RNA-seq、scRNA-seq、ChIP-seq、Target Capture） メチル化アレイ"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0315" .
+
+hum:hum0316 a sio:SIO_000756 ;
+    rdfs:label "Whole-genome sequencing of esophageal cancer to elucidate pathogenesis and search for treatment-sensitive markers"@en,
+        "食道がんの全ゲノムシークエンス解析による病態解明と治療感受性マーカーの探索に関する研究"@ja ;
+    dc:type "NGS (WGS, RNA-seq)"@en,
+        "NGS （WGS、RNA-seq）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0316" .
+
+hum:hum0317 a sio:SIO_000756 ;
+    rdfs:label "Research on the establishment of patient derived xenograft models useful for drug discovery research"@en,
+        "創薬研究に有用な患者検体移植モデルの構築に関する研究"@ja ;
+    dc:type "NGS (Exome, RNA-seq)"@en,
+        "NGS （Exome、RNA-seq）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0317" .
+
+hum:hum0318 a sio:SIO_000756 ;
+    rdfs:label "Clinical sequence of hematological malignancy"@en,
+        "血液疾患のゲノム解析研究"@ja ;
+    dc:type "NGS (Target Capture)"@en,
+        "NGS （Target Capture）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0318" ;
+    rdfs:seeAlso nando:NANDO_2200001 .
+
+hum:hum0319 a sio:SIO_000756 ;
+    rdfs:label "Development of diagnostic markers for prostate cancer using genetic polymorphisms Identification of Rare Variants Involved in the Development of Prostate Cancer in Japanese"@en,
+        "遺伝子多型を用いた前立腺癌診断マーカーの開発 日本人の前立腺がん発症に関わるレアバリアントの同定"@ja ;
+    dc:type "NGS (Target Capture)"@en,
+        "NGS （Target Capture）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0319" .
+
+hum:hum0320 a sio:SIO_000756 ;
+    rdfs:label "Immunomonitoring study in patients with malignant tumors"@en,
+        "悪性腫瘍を有する患者を対象とした免疫モニタリング研究"@ja ;
+    dc:type "NGS (scRNA-seq, TCR-seq)"@en,
+        "NGS （scRNA-seq、TCR-seq）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0320" .
+
+hum:hum0321 a sio:SIO_000756 ;
+    rdfs:label "Comprehensive analysis of interaction between human gene expression and environmental metagenomes"@en,
+        "胸腺組織を介した免疫系構築の遺伝子制御に関する研究"@ja ;
+    dc:type "NGS (scRNA-seq)"@en,
+        "NGS （scRNA-seq）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0321" ;
+    rdfs:seeAlso nando:NANDO_1200020,
+        nando:NANDO_2200906 .
+
+hum:hum0323 a sio:SIO_000756 ;
+    rdfs:label "Biomarker exploration of colon cancer"@en,
+        "大腸癌の診断マーカーの探索研究"@ja ;
+    dc:type "NGS (CAGE-seq)"@en,
+        "NGS （CAGE-seq）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0323" .
+
+hum:hum0324 a sio:SIO_000756 ;
+    rdfs:label "Genetic analysis of cerebrovascular diseases and neuromuscular disorders"@en,
+        "脳血管障害及び神経筋難病の遺伝子解析研究"@ja ;
+    dc:type "NGS (WGBS)"@en,
+        "NGS （WGBS）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0324" ;
+    rdfs:seeAlso nando:NANDO_1200027,
+        nando:NANDO_2201322 .
+
+hum:hum0327 a sio:SIO_000756 ;
+    rdfs:label "Screening of neoantigens and neoantigen reactive T cell receptors in hepatobiliary and pancreatic cancer for clinical application of personalized T cell therapy"@en,
+        "個別化T細胞受容体遺伝子導入T細胞療法の臨床応用を目指した肝胆膵領域がんにおけるネオアンチゲンおよびそれを認識するT細胞受容体のスクリーニング"@ja ;
+    dc:type "NGS (Exome, RNA-seq)"@en,
+        "NGS （Exome、RNA-seq）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0327" ;
+    rdfs:seeAlso nando:NANDO_2200047 .
+
+hum:hum0328 a sio:SIO_000756 ;
+    rdfs:label "Frequency of germline variants in genes associated with DNA repair among adanced prostate cancer patients in Japan"@en,
+        "日本人の進行性前立腺癌におけるDNA修復遺伝子異常の頻度に関する研究"@ja ;
+    dc:type "NGS (Target Capture)"@en,
+        "NGS （Target Capture）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0328" .
+
+hum:hum0329 a sio:SIO_000756 ;
+    rdfs:label "Next-generation sequencing-based comprehensive genetic analysis of undiagnosed disease"@en,
+        "未診断疾患の網羅的遺伝子解析による診断システムの構築"@ja ;
+    dc:type "NGS (Exome)"@en,
+        "NGS （Exome）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0329" .
+
+hum:hum0331 a sio:SIO_000756 ;
+    rdfs:label "Construction of control data for the promotion of genomic medicine for cancers and rare diseases"@en,
+        "がんや難病に関するゲノム医療の推進に必要な健常群 ・疾患コントロール群データの構築"@ja ;
+    dc:type "NGS (WGS)"@en,
+        "NGS （WGS）"@ja ;
+    dcterms:accessRights "Unrestricted-access"@en,
+        "非制限公開"@ja ;
+    dcterms:identifier "hum0331" .
+
+hum:hum0332 a sio:SIO_000756 ;
+    rdfs:label "A study on personalized medicine in genitourinary cancers using genetic biomarkers."@en,
+        "遺伝子マーカーを用いた尿路性器癌の個別化治療法に関する研究"@ja ;
+    dc:type "NGS (Exome)"@en,
+        "NGS （Exome）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0332" .
+
+hum:hum0335 a sio:SIO_000756 ;
+    rdfs:label "Research on new diagnosis and clinical picture of lymphoproliferative diseases by combining genetic analysis and immunological traits"@en,
+        "遺伝子解析と免疫形質を組み合わせたリンパ増殖性疾患の新たな診断と臨床像の調査研究"@ja ;
+    dc:type "NGS (Target Capture)"@en,
+        "NGS （Target Capture）"@ja ;
+    dcterms:accessRights "Unrestricted-access"@en,
+        "非制限公開"@ja ;
+    dcterms:identifier "hum0335" .
+
+hum:hum0337 a sio:SIO_000756 ;
+    rdfs:label "Fundamental research on establishment of a novel tailor-maid therapy for refractory gynecologic malignancy based on comprehensive omics analysis"@en,
+        "難治性婦人科悪性腫瘍の包括的オミックス解析に基づく新規テーラーメード治療の創出を目指した基盤的研究"@ja ;
+    dc:type "NGS (scRNA-seq)"@en,
+        "NGS （scRNA-seq）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0337" .
+
+hum:hum0338 a sio:SIO_000756 ;
+    rdfs:label "Comprehensive cancer genome, epigenome, and immunogenome analysis for gastric cancer unaffected by aging or Helicobacter pylori infection"@en,
+        "加齢またはピロリ感染の影響がない胃がんに対する包括的がんゲノム・エピゲノム・免疫ゲノム解析"@ja ;
+    dc:type "NGS (Exome)"@en,
+        "NGS （Exome）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0338" .
+
+hum:hum0340 a sio:SIO_000756 ;
+    rdfs:label "Comprehensive genomic analysis using next-generation sequencer for pediatric solid tumor cases"@en,
+        "小児固形腫瘍症例の次世代シークエンサーを用いた網羅的ゲノム解析"@ja ;
+    dc:type "NGS (WGS, Target Capture)"@en,
+        "NGS （WGS、Target Capture）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0340" ;
+    rdfs:seeAlso nando:NANDO_2200042,
+        nando:NANDO_2200087 .
+
+hum:hum0342 a sio:SIO_000756 ;
+    rdfs:label "Immunohistochemical and molecular pathological search in gastrointestinal tumors"@en,
+        "消化器腫瘍の免疫組織化学的・分子病理学的検索"@ja ;
+    dc:type "NGS (Exome, RNA-seq)"@en,
+        "NGS （Exome、RNA-seq）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0342" .
+
+hum:hum0343 a sio:SIO_000756 ;
+    rdfs:label "Development of COVID19 vaccine and evaluation system based on genetics of COVID-19"@en,
+        "新型コロナウイルス感染症の遺伝学的知見に基づいたCOVID19ワクチンの開発と評価系の構築"@ja ;
+    dc:type "NGS (RNA-seq) SNP-chip Protein expression eQTL/sQTL/pQTL Presence or absence of endogenous herpesvirus 6, anellovirus load"@en,
+        "NGS （RNA-seq） SNP-chip タンパク質発現量 eQTL/sQTL/pQTL eHHV-6の有無、アネロウイルス量"@ja ;
+    dcterms:accessRights "Unrestricted-access Controlled-access (Type I)"@en,
+        "非制限公開 制限（Type I）"@ja ;
+    dcterms:identifier "hum0343" .
+
+hum:hum0344 a sio:SIO_000756 ;
+    rdfs:label "Genome sequencing analysis for biliary tract cancer"@en,
+        "シークエンス解析によるがんゲノム研究：腎臓がん"@ja ;
+    dc:type "NGS (WGS, RNA-seq, Amplicon-seq)"@en,
+        "NGS （WGS、RNA-seq、Amplicon-seq）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0344" .
+
+hum:hum0345 a sio:SIO_000756 ;
+    rdfs:label "Fundamental study for regenerative medicine utilizing cord blood"@en,
+        "臍帯血を用いた再生医療に向けた基礎的研究"@ja ;
+    dc:type "NGS (scRNA-seq, ATAC-seq)"@en,
+        "NGS （scRNA-seq、ATAC-seq）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0345" .
+
+hum:hum0347 a sio:SIO_000756 ;
+    rdfs:label "Comprehensive genetic analysis of acute encephalopathy"@en,
+        "急性脳症の包括的遺伝子解析"@ja ;
+    dc:type "Sanger-seq SNP-chip"@en,
+        "サンガー法 SNP-chip"@ja ;
+    dcterms:accessRights "Unrestricted-access"@en,
+        "非制限公開"@ja ;
+    dcterms:identifier "hum0347" ;
+    rdfs:seeAlso nando:NANDO_1200552,
+        nando:NANDO_2200901 .
+
+hum:hum0348 a sio:SIO_000756 ;
+    rdfs:label "Analysis of ATL progression by CD30 signaling and its biomarkers"@en,
+        "CD30陽性HTLV-1感染細胞のゲノム異常によるATL発症バイオマーカーの同定"@ja ;
+    dc:type "NGS (Exome) Array CGH"@en,
+        "NGS （Exome） アレイCGH"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0348" .
+
+hum:hum0350 a sio:SIO_000756 ;
+    rdfs:label "Research to establish a foundation for integrated analysis of human genetic polymorphisms and omics data"@en,
+        "ヒト遺伝子多型とオミックステ$3099ータの統合解析のための基盤構築研究"@ja ;
+    dc:type "NGS (5' single-cell RNA-seq, 3' single-cell RNA-seq, Micro-C and Region Capture Micro-C, CITE-seq, Multimodal assay including single-nucleus ATAC-seq, 3' and 5’ single-nucleus RNA-seq, and 5' single-cell RNA-seq, MAS-seq, CAGE-seq, and NET-CAGE-seq)"@en,
+        "NGS （5' single-cell RNA-seq、3' single-cell RNA-seq、Micro-C and Region Capture Micro-C、CITE-seq、Multimodal assay（single-nucleus ATAC-seq、 3' and 5’ single-nucleus RNA-seq、 5' single-cell RNA-seq）、MAS-seq、CAGE-seq、NET-CAGE-seq）"@ja ;
+    dcterms:accessRights "Unrestricted-access Controlled-access (Type I)"@en,
+        "非制限公開 制限(Type I)"@ja ;
+    dcterms:identifier "hum0350" .
+
+hum:hum0351 a sio:SIO_000756 ;
+    rdfs:label "New classification of occlusive cerebrovascular diseases by combining diagnostic imaging and genetic analysis of RNF213"@en,
+        "画像検査と RNF213 遺伝子検査の融合による閉塞性血管障害の新評価体系の確立"@ja ;
+    dc:type "Metagenome"@en,
+        "メタゲノム"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0351" ;
+    rdfs:seeAlso nando:NANDO_1200183,
+        nando:NANDO_2200850 .
+
+hum:hum0352 a sio:SIO_000756 ;
+    rdfs:label "Analytical study of protein function and RNA expression involved in predicting treatment efficacy and adverse event development in lung cancer radiotherapy"@en,
+        "肺癌放射線治療の治療効果および有害事象発症の予測に関与するタンパク機能、RNA発現の解析研究"@ja ;
+    dc:type "NGS (RNA-seq)"@en,
+        "NGS （RNA-seq）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0352" .
+
+hum:hum0354 a sio:SIO_000756 ;
+    rdfs:label "Analyses of circulating tumor cells from patients with advanced urogenital cancer"@en,
+        "泌尿器がんにおける血中循環がん細胞（CTC）の変化"@ja ;
+    dc:type "qRT-PCR"@en,
+        "qRT-PCR"@ja ;
+    dcterms:accessRights "Unrestricted-access"@en,
+        "非制限公開"@ja ;
+    dcterms:identifier "hum0354" .
+
+hum:hum0355 a sio:SIO_000756 ;
+    rdfs:label "Genomic analysis of genitourinary tumors by next generation sequencing"@en,
+        "次世代シークエンスによる泌尿器科腫瘍のゲノム解析"@ja ;
+    dc:type "NGS (WGS, Exome, RNA-seq) Microarray"@en,
+        "NGS （WGS、Exome、RNA-seq）、マイクロアレイ"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0355" .
+
+hum:hum0356 a sio:SIO_000756 ;
+    rdfs:label "Elucidation of genetic alterations in colorectal carcinogenesis and establishment of clinical significance of interstitial"@en,
+        "大腸発がんにおける遺伝子変化の解明と間質の臨床的意義の確立"@ja ;
+    dc:type "NGS (Visium Spatial Gene Expression) Histological image"@en,
+        "NGS （Visium Spatial Gene Expression） 病理画像"@ja ;
+    dcterms:accessRights "Unrestricted-access"@en,
+        "非制限公開"@ja ;
+    dcterms:identifier "hum0356" .
+
+hum:hum0357 a sio:SIO_000756 ;
+    rdfs:label "Research for biological features by gene expression analysis and biomarkers at diagnosis/therapeutics in lung cancer"@en,
+        "肺癌の遺伝子発現解析の生物学的特性ならびに診断・治療におけるバイオマーカーの研究"@ja ;
+    dc:type "NGS (WGS, Exome, RNA-seq, scRNA-seq, ATAC-seq) Methylation array"@en,
+        "NGS （WGS、Exome、RNA-seq、scRNA-seq、ATAC-seq） メチル化アレイ"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0357" .
+
+hum:hum0358 a sio:SIO_000756 ;
+    rdfs:label "Research of genetic abnormalities related to the development and prognosis of adenocarcinoma and squamous cell carcinoma of the cervix and vaginal and vulvar cancer"@en,
+        "子宮頸部腺癌・扁平上皮癌、腟・外陰癌の発生及び予後決定に関わる遺伝子異常の検索"@ja ;
+    dc:type "NGS (Exome, RNA-seq, scRNA-seq, Target bisulfite-seq)"@en,
+        "NGS （Exome、RNA-seq、scRNA-seq、Target bisulfite-seq）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0358" .
+
+hum:hum0359 a sio:SIO_000756 ;
+    rdfs:label "Genomic and Epigenetic Analysis on T/NK-cell lymphoma"@en,
+        "T/NK細胞リンパ腫におけるゲノム・エピゲノム異常の解明"@ja ;
+    dc:type "NGS (Target Capture)"@en,
+        "NGS （Target Capture）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0359" .
+
+hum:hum0360 a sio:SIO_000756 ;
+    rdfs:label "Exploratory research on COVID-19 pathogenesis and aggravation"@en,
+        "COVID-19 発病・重症化機構の探索的研究"@ja ;
+    dc:type "NGS (scRNA-seq, scVDJ-seq)"@en,
+        "NGS （scRNA-seq、scVDJ-seq）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0360" .
+
+hum:hum0362 a sio:SIO_000756 ;
+    rdfs:label "The study on genomic profiling using clinical specimens (tissue, blood, etc.) form patients with lung and thymic tumors"@en,
+        "肺腫瘍、胸腺腫瘍患者の臨床検体（組織や血液など）を用いたゲノムプロファイリングに関する研究"@ja ;
+    dc:type "NGS (RNA-seq)"@en,
+        "NGS （RNA-seq）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0362" .
+
+hum:hum0364 a sio:SIO_000756 ;
+    rdfs:label "Comprehensive analysis of microsatellite polymorphisms in human populations"@en,
+        "ヒトのマイクロサテライト多型の包括的解析"@ja ;
+    dc:type "NGS (WGS)"@en,
+        "NGS （WGS）"@ja ;
+    dcterms:accessRights "Unrestricted-access"@en,
+        "非制限公開"@ja ;
+    dcterms:identifier "hum0364" .
+
+hum:hum0365 a sio:SIO_000756 ;
+    rdfs:label "The role of gut microbiota in metabolic diseases"@en,
+        "生活習慣病における腸内細菌の役割について"@ja ;
+    dc:type "NGS (CAGE-seq)"@en,
+        "NGS （CAGE-seq）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0365" .
+
+hum:hum0366 a sio:SIO_000756 ;
+    rdfs:label "Pathogenesis of severe acute respiratory syndrome coronavirus 2 infection (COVID-19)"@en,
+        "新型コロナウイルス感染症(COVID-19)の病態解明"@ja ;
+    dc:type "NGS (scRNA-seq, RNA-seq, ATAC-seq)"@en,
+        "NGS （scRNA-seq、RNA-seq、ATAC-seq）"@ja ;
+    dcterms:accessRights "Unrestricted-access"@en,
+        "非制限公開"@ja ;
+    dcterms:identifier "hum0366" .
+
+hum:hum0367 a sio:SIO_000756 ;
+    rdfs:label "Clinical sequence of hematological malignancy"@en,
+        "血液疾患のゲノム解析研究"@ja ;
+    dc:type "NGS (Target Capture)"@en,
+        "NGS （Target Capture）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0367" ;
+    rdfs:seeAlso nando:NANDO_2200031 .
+
+hum:hum0368 a sio:SIO_000756 ;
+    rdfs:label "Identification and functional analysis of novel causative genes of ICF syndrome by whole genome sequencing"@en,
+        "全ゲノム配列決定によるICF症候群の新規原因遺伝子の探索および機能解析"@ja ;
+    dc:type "NGS (PBAT-seq)"@en,
+        "NGS （PBAT-seq）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0368" ;
+    rdfs:seeAlso nando:NANDO_1200334,
+        nando:NANDO_2200708 .
+
+hum:hum0369 a sio:SIO_000756 ;
+    rdfs:label "A study of resistance to novel coronavirus infection in health care workers"@en,
+        "医療従事者の新型コロナウィルス感染抵抗性についての検討"@ja ;
+    dc:type "NGS (Target Capture)"@en,
+        "NGS （Target Capture）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0369" .
+
+hum:hum0371 a sio:SIO_000756 ;
+    rdfs:label "Research on genes and proteins associated with liver disease."@en,
+        "肝臓疾患に関与する遺伝子とタンパク質の探索に関する研究"@ja ;
+    dc:type "Metagenome"@en,
+        "メタゲノム"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0371" .
+
+hum:hum0372 a sio:SIO_000756 ;
+    rdfs:label "Elucidation of disease state by multi-layered omics analysis $00A0"@en,
+        "多層的オミクス解析による疾患病態の解明 メタボリック・シンドローム関連疾患における個別化医療の実現"@ja ;
+    dc:type "Metabolome"@en,
+        "メタボローム"@ja ;
+    dcterms:accessRights "Unrestricted-access Controlled-access (Type I)"@en,
+        "非制限公開 制限（Type I）"@ja ;
+    dcterms:identifier "hum0372" ;
+    rdfs:seeAlso nando:NANDO_2200461 .
+
+hum:hum0375 a sio:SIO_000756 ;
+    rdfs:label "identification of disease responsible genome region and establishment of genome information technology by next generation DNA sequencer"@en,
+        "超高速DNAシーケンサーを用いた疾患原因ゲノム領域の同定と情報解析法の確立、および参照配列データの作成に関する研究"@ja ;
+    dc:type "NGS (Exome)"@en,
+        "NGS （Exome）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0375" ;
+    rdfs:seeAlso nando:NANDO_1200607,
+        nando:NANDO_2200826 .
+
+hum:hum0376 a sio:SIO_000756 ;
+    rdfs:label "Establishment of xenografts and cultured cell lines from clinical samples."@en,
+        "臨床検体からのゼノグラフト株・培養細胞株の樹立"@ja ;
+    dc:type "NGS (Target Capture)"@en,
+        "NGS （Target Capture）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0376" .
+
+hum:hum0377 a sio:SIO_000756 ;
+    rdfs:label "Research on the genetic basis of arrhythmia syndrome"@en,
+        "不整脈症候群の遺伝子基盤に関する研究"@ja ;
+    dc:type "NGS (Amplicon-seq)"@en,
+        "NGS （Amplicon-seq）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0377" ;
+    rdfs:seeAlso nando:NANDO_2200228 .
+
+hum:hum0378 a sio:SIO_000756 ;
+    rdfs:label "Basic research to elucidate the pathogenesis of hemolytic anemia"@en,
+        "溶血性貧血の病態解明を目指した基礎研究"@ja ;
+    dc:type "NGS (Exome)"@en,
+        "NGS （Exome）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0378" ;
+    rdfs:seeAlso nando:NANDO_1200307,
+        nando:NANDO_2200618 .
+
+hum:hum0379 a sio:SIO_000756 ;
+    rdfs:label "Immune regulation by cotrolling regulatory T cell-specific epigenome"@en,
+        "制御性T細胞特異的エピゲノム誘導による免疫制御の研究"@ja ;
+    dc:type "NGS (scRNA-seq, scVDJ-seq)"@en,
+        "NGS （scRNA-seq、scVDJ-seq）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0379" ;
+    rdfs:seeAlso nando:NANDO_1200020,
+        nando:NANDO_1200023,
+        nando:NANDO_1200272,
+        nando:NANDO_2200416,
+        nando:NANDO_2200904,
+        nando:NANDO_2200906 .
+
+hum:hum0381 a sio:SIO_000756 ;
+    rdfs:label "A biomarker study of a multicenter Phase II Trial of Nivolumab for Unresectable or Recurrent Thymic Carcinoma (NCCH1505)"@en,
+        "切除不能または再発胸腺癌に対するニボルマブの多施設共同第II相試験（NCCH1505）附随研究"@ja ;
+    dc:type "NGS (Target Capture)"@en,
+        "NGS （Target Capture）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0381" ;
+    rdfs:seeAlso nando:NANDO_2200079 .
+
+hum:hum0382 a sio:SIO_000756 ;
+    rdfs:label "Analysis of genetic and epigenetic abnormalities in hematopoietic diseases"@en,
+        "造血器疾患における遺伝子異常・エピジェネティクス異常の解析"@ja ;
+    dc:type "NGS (WGS)"@en,
+        "NGS （WGS）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0382" ;
+    rdfs:seeAlso nando:NANDO_1100006,
+        nando:NANDO_2100175 .
+
+hum:hum0383 a sio:SIO_000756 ;
+    rdfs:label "Analysis of the effect of abatacept for the transcriptome of multiple lymphoid subsets"@en,
+        "生物学的製剤投与前後のリンパ球の遺伝子発現修飾の解析"@ja ;
+    dc:type "NGS (RNA-seq)"@en,
+        "NGS （RNA-seq）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0383" .
+
+hum:hum0384 a sio:SIO_000756 ;
+    rdfs:label "Deciphering molecular mechanisms underlying hematological malignancies and development of novel therapeutic approaches"@en,
+        "造血器腫瘍の分子病態の解明と新規治療薬開発の基盤構築"@ja ;
+    dc:type "NGS (RNA-seq, Target Capture, ATAC-seq)"@en,
+        "NGS （RNA-seq、Target Capture、ATAC-seq）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0384" ;
+    rdfs:seeAlso nando:NANDO_2200019 .
+
+hum:hum0385 a sio:SIO_000756 ;
+    rdfs:label "Comprehensive genetic analysis of Combined hepatocellular-cholangiocarcinoma, Cholangiolocarcinoma, Keratin 19-expressing hepatocellular carcinoma, and SOX9-expressing hepatocellular carcinoma"@en,
+        "混合型肝癌、細胆管細胞癌、Cytokeratin19陽性肝細胞癌、SOX9陽性肝細胞癌の網羅的DNA変異解析"@ja ;
+    dc:type "NGS (Exome)"@en,
+        "NGS （Exome）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0385" ;
+    rdfs:seeAlso nando:NANDO_2200047 .
+
+hum:hum0386 a sio:SIO_000756 ;
+    rdfs:label "Localized assembly for long reads enables genome-wide analysis of repetitive regions at single-base resolution in human genomes"@en,
+        "長鎖リードの局所アセンブリによる一塩基解像度でのヒト反復配列のゲノムワイド解析"@ja ;
+    dc:type "NGS (WGS)"@en,
+        "NGS （WGS）"@ja ;
+    dcterms:accessRights "Unrestricted-access"@en,
+        "非制限公開"@ja ;
+    dcterms:identifier "hum0386" .
+
+hum:hum0389 a sio:SIO_000756 ;
+    rdfs:label "Genetic analysis of fetal developmental abnormalities"@en,
+        "胎児発育異常の遺伝子・ゲノム解析"@ja ;
+    dc:type "NGS (Capture Methyl-seq)"@en,
+        "NGS （Capture Methyl-seq）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0389" .
+
+hum:hum0390 a sio:SIO_000756 ;
+    rdfs:label "Elucidation of genetic factors associated with chronic endometritis (CE) through genomic and epigenomic analyses, and investigation on novel diagnostic and therapeutic methods for CE"@en,
+        "ゲノム・エピゲノム解析による慢性子宮内膜炎の関連遺伝子の解明とその診断法および治療法の検討"@ja ;
+    dc:type "NGS (RNA-seq)"@en,
+        "NGS （RNA-seq）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0390" .
+
+hum:hum0391 a sio:SIO_000756 ;
+    rdfs:label "Establishment of a human tongue cancer organoid biobank"@en,
+        "ヒト舌癌オルガノイドバイオバンクの構築"@ja ;
+    dc:type "NGS (scRNA-seq, scATAC-seq)"@en,
+        "NGS （scRNA-seq、scATAC-seq）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0391" .
+
+hum:hum0393 a sio:SIO_000756 ;
+    rdfs:label "To explore new biomarkers or therapeutic target molecules using samples with patients with autoimmune diseases"@en,
+        "膠原病類縁疾患患者検体を用いた新規バイオマーカーおよび治療標的分子探索に関する研究"@ja ;
+    dc:type "NGS (RNA-seq)"@en,
+        "NGS （RNA-seq）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0393" ;
+    rdfs:seeAlso nando:NANDO_1200265 .
+
+hum:hum0394 a sio:SIO_000756 ;
+    rdfs:label "Multi‐institutional joint research of spatial transcriptome analysis for non-small cell lung cancers"@en,
+        "非小細胞肺癌における空間トランスクリプトーム解析に関する多施設共同研究"@ja ;
+    dc:type "NGS (Visium Spatial Gene Expression, WGS, t-nanoEM) Histological image Xenium In Situ Gene Expression Multiplex Fluorescence Immunostaining"@en,
+        "NGS （Visium Spatial Gene Expression、WGS、t-nanoEM） 病理画像 Xenium In Situ Gene Expression Multiplex Fluorescence Immunostaining"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0394" .
+
+hum:hum0395 a sio:SIO_000756 ;
+    rdfs:label "Comprehensive survey for the construction of an integrated database of food, gut microbiome, and health information (the \"Sukoyaka Health Survey\"): Hokkaido Information University An epidemiological study examining the relationship among food, health, and genome: Hokkaido Information University"@en,
+        "食・腸内マイクロバイオーム・健康情報統合データベース構築に向けた網羅的研究調査（愛称：すこやか健康調査）：北海道情報大学 食と健康の関係性と遺伝的背景に関する検討：北海道情報大学"@ja ;
+    dc:type "Attributes, Blood and Urine Test Body measurement Questionnaire, Interview Sleep diary, Heart rate/brain wave during sleep Microbiome composition Nutrient intake, Food frequency questionnaire Metabolomics SNP-chip"@en,
+        "血液・尿検査 計測データ アンケート調査 問診結果 被験者属性 睡眠日誌、睡眠時心拍・脳波 微生物組成 食事調査、食物摂取頻度調査 メタボロミクス SNP-chip"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0395" .
+
+hum:hum0396 a sio:SIO_000756 ;
+    rdfs:label "Comprehensive survey for the construction of an integrated database of food, gut microbiome, and health information (the \"Sukoyaka Health Survey\"): University of Miyazaki An epidemiological study examining the relationship among food, health, and genome: University of Miyazaki"@en,
+        "食・腸内マイクロバイオーム・健康情報統合データベース構築に向けた網羅的研究調査（愛称：すこやか健康調査）：宮崎大学 食と健康の関係性と遺伝的背景に関する検討：宮崎大学"@ja ;
+    dc:type "Attributes, Blood and Urine Test Body measurement Questionnaire, Interview Sleep diary, Heart rate/brain wave during sleep Microbiome composition Nutrient intake, Food frequency questionnaire Metabolomics SNP-chip"@en,
+        "血液・尿検査 計測データ アンケート調査 問診結果 被験者属性 睡眠日誌、睡眠時心拍・脳波 微生物組成 食事調査、食物摂取頻度調査 メタボロミクス SNP-chip"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0396" .
+
+hum:hum0397 a sio:SIO_000756 ;
+    rdfs:label "Comprehensive survey for the construction of an integrated database of food, gut microbiome, and health information (the \"Sukoyaka Health Survey\"): Kyoto University An epidemiological study examining the relationship among food, health, and genome: Kyoto University"@en,
+        "食・腸内マイクロバイオーム・健康情報統合データベース構築に向けた網羅的研究調査（愛称：すこやか健康調査）：京都大学 食と健康の関係性と遺伝的背景に関する検討：京都大学"@ja ;
+    dc:type "Attributes, Blood and Urine Test Body measurement Questionnaire, Interview Sleep diary, Heart rate/brain wave during sleep Microbiome composition Nutrient intake, Food frequency questionnaire SNP-chip"@en,
+        "血液・尿検査 計測データ アンケート調査 問診結果 被験者属性 睡眠日誌、睡眠時心拍・脳波 微生物組成 食事調査、食物摂取頻度調査 SNP-chip"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0397" .
+
+hum:hum0398 a sio:SIO_000756 ;
+    rdfs:label "Comprehensive survey for the construction of an integrated database of food, gut microbiome, and health information (the \"Sukoyaka Health Survey\"): University of Nagasaki"@en,
+        "食・腸内マイクロバイオーム・健康情報統合データベース構築に向けた網羅的研究調査（愛称：すこやか健康調査）：長崎県立大学"@ja ;
+    dc:type "Attributes, Blood and Urine Test Body measurement Questionnaire, Interview Sleep diary, Heart rate/brain wave during sleep Microbiome composition Nutrient intake, Food frequency questionnaire"@en,
+        "血液・尿検査 計測データ アンケート調査 問診結果 被験者属性 睡眠日誌、睡眠時心拍・脳波 微生物組成 食事調査、食物摂取頻度調査"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0398" .
+
+hum:hum0399 a sio:SIO_000756 ;
+    rdfs:label "Exploratory studies of molecular biological mechanisms related to the breast cancer microenvironment"@en,
+        "乳がん微小環境形成に関わる分子生物学的機序の生体試料を用いた探索研究"@ja ;
+    dc:type "NGS (Visium Spatial Gene Expression) Histological image"@en,
+        "NGS （Visium Spatial Gene Expression） 病理画像"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0399" .
+
+hum:hum0401 a sio:SIO_000756 ;
+    rdfs:label "Development of cell lines and mouse models of bone and soft tissue sarcoma to establish novel treatment"@en,
+        "創薬をめざした新規骨・軟部肉腫細胞株および疾患モデル動物の開発"@ja ;
+    dc:type "NGS (Exome, RNA-seq)"@en,
+        "NGS （Exome、RNA-seq）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0401" ;
+    rdfs:seeAlso nando:NANDO_2200050,
+        nando:NANDO_2200052,
+        nando:NANDO_2200061 .
+
+hum:hum0402 a sio:SIO_000756 ;
+    rdfs:label "Elucidation of the mechanisms that give rise to driver mutations in colorectal carcinogenesis"@en,
+        "大腸多段階発がん進化の過程においてドライバー変異を生じる機序の解明"@ja ;
+    dc:type "NGS (Visium Spatial Gene Expression) Histological image"@en,
+        "NGS （Visium Spatial Gene Expression） 病理画像"@ja ;
+    dcterms:accessRights "Unrestricted-access"@en,
+        "非制限公開"@ja ;
+    dcterms:identifier "hum0402" .
+
+hum:hum0403 a sio:SIO_000756 ;
+    rdfs:label "Investigation of the utility of liquid biopsy in urologic cancer"@en,
+        "泌尿器癌におけるリキッドバイオプシーの有用性の検討"@ja ;
+    dc:type "NGS (Target Capture)"@en,
+        "NGS （Target Capture）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0403" .
+
+hum:hum0404 a sio:SIO_000756 ;
+    rdfs:label "Elucidation of pathology and therapeutic development using genome analysis, iPS cells, and genome editing for cardiovascular diseases Elucidation of pathology and development of novel medical technology using iPS cells derived from patients with cardiovascular disease"@en,
+        "循環器疾患のゲノム解析技術、iPS細胞技術、ゲノム編集技術を用いた病態解明ならびに治療法開発研究 循環器疾患患者由来iPS細胞を用いた病態解明ならびに新規医療技術開発研究"@ja ;
+    dc:type "NGS (scRNA-seq, WGS)"@en,
+        "NGS （scRNA-seq、WGS）"@ja ;
+    dcterms:accessRights "Unrestricted-access Controlled-access (Type I)"@en,
+        "非制限公開 制限（Type I）"@ja ;
+    dcterms:identifier "hum0404" ;
+    rdfs:seeAlso nando:NANDO_1200286,
+        nando:NANDO_1200495,
+        nando:NANDO_2200229,
+        nando:NANDO_2200230,
+        nando:NANDO_2200864 .
+
+hum:hum0405 a sio:SIO_000756 ;
+    rdfs:label "Research on the identification of cancer stem cells for peidatric and adult malignancies"@en,
+        "小児・成人悪性腫瘍がん幹細胞の同定に関する研究"@ja ;
+    dc:type "NGS (Exome, RNA-seq, small RNA-seq)"@en,
+        "NGS （Exome、RNA-seq、small RNA-seq）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0405" ;
+    rdfs:seeAlso nando:NANDO_2200001,
+        nando:NANDO_2200004,
+        nando:NANDO_2200005,
+        nando:NANDO_2200006,
+        nando:NANDO_2200007,
+        nando:NANDO_2200008,
+        nando:NANDO_2200009,
+        nando:NANDO_2200010,
+        nando:NANDO_2200011 .
+
+hum:hum0406 a sio:SIO_000756 ;
+    rdfs:label "The Generation of Human Disease-Specific iPS Cells and the Use of Such iPS Cells for Disease Analysis"@en,
+        "ヒト疾患特異的iPS細胞の作成とそれを用いた疾患解析に関する研究"@ja ;
+    dc:type "NGS (RNA-seq, scRNA-seq)"@en,
+        "NGS （RNA-seq、scRNA-seq）"@ja ;
+    dcterms:accessRights "Unrestricted-access Controlled-access (Type I)"@en,
+        "非制限公開 制限（Type I）"@ja ;
+    dcterms:identifier "hum0406" ;
+    rdfs:seeAlso nando:NANDO_1201096,
+        nando:NANDO_2200201,
+        nando:NANDO_2200203 .
+
+hum:hum0409 a sio:SIO_000756 ;
+    rdfs:label "Analysis of genes that confer exceptional response in anticancer therapy"@en,
+        "抗がん剤治療におけるExceptional Responseをもたらす遺伝子の研究"@ja ;
+    dc:type "NGS (Exome, RNA-seq, Target Capture)"@en,
+        "NGS （Exome、RNA-seq、Target Capture）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0409" .
+
+hum:hum0411 a sio:SIO_000756 ;
+    rdfs:label "Investigation of molecular diagnosis by molecular biological analysis using next-generation sequencer for actionable endocrine diseases (including neoplastic diseases)"@en,
+        "対応可能（actionable）な内分泌疾患（腫瘍性のものを含む）の次世代シーケンサーを用いた分子生物学的解析による分子診断の検討"@ja ;
+    dc:type "NGS (Exome)"@en,
+        "NGS （Exome）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0411" .
+
+hum:hum0413 a sio:SIO_000756 ;
+    rdfs:label "Comprehensive analysis on medical and omics data from patients with atopic dermatitis"@en,
+        "アトピー性皮膚炎患者の網羅的データ解析研究"@ja ;
+    dc:type "NGS (RNA-seq)"@en,
+        "NGS （RNA-seq）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0413" .
+
+hum:hum0414 a sio:SIO_000756 ;
+    rdfs:label "Elucidation of molecular mechanisms of lung cancer development and progression based on genome analysis"@en,
+        "ゲノム解析に基づく肺がんの発生･進展の分子機構の解明"@ja ;
+    dc:type "NGS (WGS)"@en,
+        "NGS （WGS）"@ja ;
+    dcterms:accessRights "Unrestricted-access"@en,
+        "非制限公開"@ja ;
+    dcterms:identifier "hum0414" .
+
+hum:hum0416 a sio:SIO_000756 ;
+    rdfs:label "Elucidation of biological responses in intractable immune disorders and cancer and development of novel therapies through sequential multilevel omics analysis."@en,
+        "経時的な多層的オミックス解析を通した免疫難病及びがんにおける生体反応の解明と新規治療法の開発"@ja ;
+    dc:type "NGS (CITE-seq, BD Ab-seq, scRNA-seq) single-cell spatial transcriptome"@en,
+        "NGS （CITE-seq、BD Ab-seq、scRNA-seq） シングルセル空間トランスクリプトーム"@ja ;
+    dcterms:accessRights "Unrestricted-access"@en,
+        "非制限公開"@ja ;
+    dcterms:identifier "hum0416" ;
+    rdfs:seeAlso nando:NANDO_1200262,
+        nando:NANDO_1200277,
+        nando:NANDO_1200279,
+        nando:NANDO_1200284,
+        nando:NANDO_2200420,
+        nando:NANDO_2200422,
+        nando:NANDO_2200426,
+        nando:NANDO_2200429 .
+
+hum:hum0418 a sio:SIO_000756 ;
+    rdfs:label "Trial of Onco-Panel for Geneprofiling to Estimate both Adverse events and Response by cancer treatment (TOP-GEAR)"@en,
+        "がん患者の臨床検体を用いた、治療効果および毒性に関する遺伝子のプロファイリング研究"@ja ;
+    dc:type "NGS (Target Capture)"@en,
+        "NGS （Target Capture）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0418" .
+
+hum:hum0419 a sio:SIO_000756 ;
+    rdfs:label "Application of organoid culture system of human gastrointestinal and thoracic cancer in genome medicine"@en,
+        "ヒト消化器癌、胸部悪性腫瘍オルガノイド培養系のゲノム医療への応用"@ja ;
+    dc:type "NGS (Exome, RNA-seq)"@en,
+        "NGS （Exome、RNA-seq）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0419" .
+
+hum:hum0422 a sio:SIO_000756 ;
+    rdfs:label "Multi-institutional observational study to elucidate the pathogenesis of endometrial carcinoma through integrated genomic analysis"@en,
+        "子宮体がんの統合的ゲノム解析による病態解明を目指した多機関共同観察研究"@ja ;
+    dc:type "NGS (Exome, RNA-seq)"@en,
+        "NGS （Exome、RNA-seq）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0422" .
+
+hum:hum0423 a sio:SIO_000756 ;
+    rdfs:label "Comprehensive elucidation of inflammatory muscle diseases by multi-omics analysis"@en,
+        "マルチオミックス的アプローチによる炎症性筋疾患の全容解明"@ja ;
+    dc:type "NGS (RNA-seq, snRNA-seq)"@en,
+        "NGS （RNA-seq、snRNA-seq）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0423" .
+
+hum:hum0426 a sio:SIO_000756 ;
+    rdfs:label "Diagnosis and Research on Familial, Young-onset and Hereditary Cancers"@en,
+        "家族性・若年性のがん及び遺伝性腫瘍に関する診断と研究"@ja ;
+    dc:type "NGS (WGS)"@en,
+        "NGS （WGS）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0426" .
+
+hum:hum0427 a sio:SIO_000756 ;
+    rdfs:label "Establishment of cell lines derived from head and neck malignancies Comprehensive genetic analysis and database construction for head and neck malignancies"@en,
+        "頭頸部悪性腫瘍細胞株の樹立 頭頸部悪性腫瘍に対する網羅的遺伝子解析およびデータベースの構築"@ja ;
+    dc:type "NGS (Exome)"@en,
+        "NGS （Exome）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0427" .
+
+hum:hum0429 a sio:SIO_000756 ;
+    rdfs:label "CRISPR screening identifies mechanisms of resistance to KRASG12C and SHP2 inhibitor combinations in non-small cell lung cancer"@en,
+        "CRISPR screening identifies mechanisms of resistance to KRASG12C and SHP2 inhibitor combinations in non-small cell lung cancer"@ja ;
+    dc:type "NGS (WGS, RNA-seq)"@en,
+        "NGS （WGS、RNA-seq）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0429" .
+
+hum:hum0430 a sio:SIO_000756 ;
+    rdfs:label "Construction of endoscopic biopsy banking for understanding the intestinal environment in colorectal diseases and exploratory studies using these banking systems."@en,
+        "大腸疾患における腸内環境理解のための内視鏡的生検バンキングの構築とそれらを用いた探索的研究"@ja ;
+    dc:type "NGS (Exome, RNA-seq)"@en,
+        "NGS （Exome、RNA-seq）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0430" .
+
+hum:hum0431 a sio:SIO_000756 ;
+    rdfs:label "Genetic analysis aimed at elucidating the pathophysiology, vulnerability to onset, treatment responsiveness of neuropsychiatric disorders, and developing new treatments and diagnostic and preventive methods"@en,
+        "精神神経疾患における病態生理・発症脆弱性・治療反応性等の解明、および新規治療法・診断予防法の開発を目指した遺伝子解析"@ja ;
+    dc:type "NGS (RNA-seq)"@en,
+        "NGS （RNA-seq）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0431" .
+
+hum:hum0433 a sio:SIO_000756 ;
+    rdfs:label "Derivation of human trophoblast stem cells and analysis of those characteristics Derivation of human trophoblast stem cells and those epigenomic landscape"@en,
+        "ヒト胎盤幹細胞の樹立と細胞特性に関する基礎的研究 ヒト胎盤栄養膜細胞株の樹立と細胞特性に関する研究"@ja ;
+    dc:type "NGS (RNA-seq, ChIP-seq, Hi-C, small RNA-seq, CUT&TAG-seq, Methyl-seq)"@en,
+        "NGS （RNA-seq、ChIP-seq、Hi-C、small RNA-seq、CUT&TAG-seq、Methyl-seq）"@ja ;
+    dcterms:accessRights "Unrestricted-access Controlled-access (Type I)"@en,
+        "非制限公開 制限（Type I）"@ja ;
+    dcterms:identifier "hum0433" .
+
+hum:hum0434 a sio:SIO_000756 ;
+    rdfs:label "Genetic analyses in patients with T or NK cells-associated disorders"@en,
+        "T/NK細胞が関連する各種疾患における遺伝子解析"@ja ;
+    dc:type "NGS (Exome, Target Capture)"@en,
+        "NGS （Exome、Target Capture）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0434" ;
+    rdfs:seeAlso nando:NANDO_1200295,
+        nando:NANDO_1200889,
+        nando:NANDO_2200613,
+        nando:NANDO_2200693 .
+
+hum:hum0435 a sio:SIO_000756 ;
+    rdfs:label "Investigation of a method for generating cells for regenerative medicine using comprehensive nucleic acid analysis of iPS cell-derived cardiomyocytes"@en,
+        "iPS細胞由来心筋細胞における網羅的核酸解析を用いた再生医療用細胞作製方法の検討"@ja ;
+    dc:type "NGS (scRNA-seq)"@en,
+        "NGS （scRNA-seq）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0435" .
+
+hum:hum0436 a sio:SIO_000756 ;
+    rdfs:label "Genetic polymorphism and gene transcriptome study on the etiology of autism"@en,
+        "自閉症の発症原因解明のための遺伝子多形及び遺伝子転写についての研究"@ja ;
+    dc:type "NGS (RNA-seq)"@en,
+        "NGS （RNA-seq）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0436" .
+
+hum:hum0437 a sio:SIO_000756 ;
+    rdfs:label "Genetic analysis of novel biomarkers and molecular targets for malignant brain tumors and their clinical application through multicenter collaborative research"@en,
+        "悪性脳腫瘍の新たなバイオマーカー及び分子標的の探索とそれらの臨床応用に向けた多施設共同研究による遺伝子解析"@ja ;
+    dc:type "NGS (RNA-seq)"@en,
+        "NGS （RNA-seq）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0437" .
+
+hum:hum0439 a sio:SIO_000756 ;
+    rdfs:label "Investigation of the relationship between the genes involved in dyslipidemia and the pathogenesis of the disease"@en,
+        "脂質異常症に関わる遺伝子と病態との関連の検討"@ja ;
+    dc:type "NGS (Target Capture)"@en,
+        "NGS （Target Capture）"@ja ;
+    dcterms:accessRights "Unrestricted-access"@en,
+        "非制限公開"@ja ;
+    dcterms:identifier "hum0439" ;
+    rdfs:seeAlso nando:NANDO_2200602 .
+
+hum:hum0440 a sio:SIO_000756 ;
+    rdfs:label "Elucidation of proteins associated with the clinical course of refractory neuromuscular diseases using nerve and muscle tissue"@en,
+        "神経・筋組織を用いた難治性神経筋疾患の臨床経過に関連する蛋白の解明"@ja ;
+    dc:type "NGS (Visium Spatial Gene Expression) Histological image"@en,
+        "NGS （Visium Spatial Gene Expression） 病理画像"@ja ;
+    dcterms:accessRights "Unrestricted-access Controlled-access (Type I)"@en,
+        "非制限公開 制限（Type I）"@ja ;
+    dcterms:identifier "hum0440" .
+
+hum:hum0442 a sio:SIO_000756 ;
+    rdfs:label "Exploratory study for stratification marker of immune checkpoint inhibitor in patients with advanced or recurrent non-small cell lung cancer"@en,
+        "進行・再発非小細胞肺がんにおける免疫チェックポイント阻害剤の患者層別化マーカーに関する探索的研究"@ja ;
+    dc:type "(RNA-seq)"@en,
+        "NGS （RNA-seq）"@ja ;
+    dcterms:accessRights "Unrestricted-access Controlled-access (Type I)"@en,
+        "非制限公開 制限（Type I）"@ja ;
+    dcterms:identifier "hum0442" .
+
+hum:hum0443 a sio:SIO_000756 ;
+    rdfs:label "Relationship between changes in the T-cell receptor repertoire of regulatory T cells before and after pregnancy and pregnancy outcome."@en,
+        "妊娠前後での制御性T細胞のT細胞受容体レパートリーの変化と妊娠予後との関係"@ja ;
+    dc:type "NGS (Target RNA-seq, TCR-seq)"@en,
+        "NGS （Target RNA-seq、TCR-seq）"@ja ;
+    dcterms:accessRights "Unrestricted-access"@en,
+        "非制限公開"@ja ;
+    dcterms:identifier "hum0443" .
+
+hum:hum0444 a sio:SIO_000756 ;
+    rdfs:label "Research to elucidate pathological conditions of skin diseases caused by genetic alterations by multi-omics analysis"@en,
+        "遺伝学的変化を要因とする皮膚疾患のマルチオミックス解析による病態解明の研究"@ja ;
+    dc:type "NGS (WGS, Exome, Long-read WGS, Amplicon-seq, RNA-seq) SNP array Methylation array"@en,
+        "NGS （WGS、Exome、ロングリードWGS、Amplicon-seq、RNA-seq） SNPアレイ メチル化アレイ"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0444" .
+
+hum:hum0445 a sio:SIO_000756 ;
+    rdfs:label "Research to elucidate pathological conditions of skin diseases caused by genetic alterations by multi-omics analysis"@en,
+        "ゲノム解析に基づく肺がんの発生・進展の分子機構の解明"@ja ;
+    dc:type "(Exome, RNA-seq)"@en,
+        "NGS （Exome、RNA-seq）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0445" .
+
+hum:hum0454 a sio:SIO_000756 ;
+    rdfs:label "Etiological and therapeutic response analysis of inflammatory bowel disease focusing on immune abnormalities"@en,
+        "免疫異常に着目した炎症性腸疾患の病因解析および治療反応性解析"@ja ;
+    dc:type "Xenium In Situ Gene Expression"@en,
+        "Xenium In Situ Gene Expression"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0454" ;
+    rdfs:seeAlso nando:NANDO_1200444,
+        nando:NANDO_1200449,
+        nando:NANDO_2200920,
+        nando:NANDO_2200921 .
+
+hum:hum0455 a sio:SIO_000756 ;
+    rdfs:label "Explore genetic abnormalities, molecular targets, predictive of drug sensitivity, histomorphology, and biomarkers in lung cancerAnalysis of genetic abnormalities and their biological significance in lung cancer"@en,
+        "肺がんの遺伝子異常、分子標的、薬剤感受性を予測する、組織形態、バイオマーカーの探索 肺癌の遺伝子異常とその生物学的意義の解析"@ja ;
+    dc:type "NGS (WGS, Visium Spatial Gene Expression, snRNA-seq, STOmics) Xenium In Situ Gene Expression Histological image"@en,
+        "NGS （WGS、Visium Spatial Gene Expression、snRNA-seq、STOmics） Xenium In Situ Gene Expression 病理画像"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0455" .
+
+hum:hum0456 a sio:SIO_000756 ;
+    rdfs:label "Molecular Pathological exprolation of Tumor Formation and Functional Differentiation Using Parasellar Skull Base Tumors and Malignant Glioma Tissues"@en,
+        "傍鞍部頭蓋底腫瘍及び、悪性神経膠腫組織を用いた分子生物学的解析による腫瘍の形成と機能的分化における分子病態の検討"@ja ;
+    dc:type "NGS (scRNA-seq)"@en,
+        "NGS （scRNA-seq）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0456" ;
+    rdfs:seeAlso nando:NANDO_2200091 .
+
+hum:hum0460 a sio:SIO_000756 ;
+    rdfs:label "Pilot study towards the development of a Companion/Complimentary Diagnosis platform using liquid biopsy with cfDNA for immune checkpoint inhibitor therapy in advanced urothelial cancer"@en,
+        "尿路上皮癌の免疫チェックポイント阻害薬治療におけるcfDNAを用いたリキッドバイオプシーによるCompanion/Complimentary Diagnosisプラットフォームの開発に向けたパイロット研究"@ja ;
+    dc:type "NGS (RNA-seq, Target Capture)"@en,
+        "NGS （RNA-seq、Target Capture）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0460" .
+
+hum:hum0461 a sio:SIO_000756 ;
+    rdfs:label "Analysis of the cancer immune response following radiation therapy for esophageal squamous cell carcinoma and colorectal cancer"@en,
+        "食道扁平上皮癌、大腸癌に対する放射線治療後のがん免疫応答の解析"@ja ;
+    dc:type "NGS (scRNA-seq, Visium Spatial Gene Expression) Histological image Multiplex Fluorescence Immunostaining"@en,
+        "NGS （scRNA-seq、Visium Spatial Gene Expression） 病理画像 Multiplex Fluorescence Immunostaining"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0461" .
+
+hum:hum0464 a sio:SIO_000756 ;
+    rdfs:label "In Vitro Amplification of Human Hematopoietic Tumor Cells and Construction of Mouse Models for Reproduction of Pathological Conditions"@en,
+        "ヒト造血器腫瘍細胞の体外増幅と病態再現モデルマウスの構築"@ja ;
+    dc:type "NGS (RNA-seq, scRNA-seq, scBCR-seq)"@en,
+        "NGS （RNA-seq、scRNA-seq、scBCR-seq）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0464" .
+
+hum:hum0465 a sio:SIO_000756 ;
+    rdfs:label "Establishment and genomic analysis of mixed phenotypic acute leukemia cell lines"@en,
+        "混合形質性急性白血病細胞株の樹立とゲノム解析"@ja ;
+    dc:type "NGS (Exome, RNA-seq)"@en,
+        "NGS （Exome、RNA-seq）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0465" ;
+    rdfs:seeAlso nando:NANDO_2200018 .
+
+hum:hum0466 a sio:SIO_000756 ;
+    rdfs:label "Japan Prospective Studies for Aging and Dementia (JPSC-AD) study"@en,
+        "健康長寿社会の実現を目指した大規模認知症コホート研究"@ja ;
+    dc:type "SNP-chip"@en,
+        "SNP-chip"@ja ;
+    dcterms:accessRights "Unrestricted-access"@en,
+        "非制限公開"@ja ;
+    dcterms:identifier "hum0466" .
+
+hum:hum0467 a sio:SIO_000756 ;
+    rdfs:label "Genetic background of the development of pelvic organ prolapse"@en,
+        "骨盤臓器脱発症における遺伝学的背景"@ja ;
+    dc:type "SNP-chip"@en,
+        "SNP-chip"@ja ;
+    dcterms:accessRights "Unrestricted-access"@en,
+        "非制限公開"@ja ;
+    dcterms:identifier "hum0467" .
+
+hum:hum0468 a sio:SIO_000756 ;
+    rdfs:label "Analysis of immune and inflammatory pathology"@en,
+        "免疫・炎症病態の解析"@ja ;
+    dc:type "NGS (scRNA-seq, bulk RNA-seq, scASAP-seq, CITE-seq, VDJ-seq) Xenium In Situ Gene Expression"@en,
+        "NGS （scRNA-seq、bulk RNA-seq、scASAP-seq、CITE-seq、VDJ-seq） Xenium In Situ Gene Expression"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0468" .
+
+hum:hum0469 a sio:SIO_000756 ;
+    rdfs:label "Investigation of immune response to cytomegalovirus during pregnancy"@en,
+        "妊娠中のサイトメガロウイルス免疫応答の検討"@ja ;
+    dc:type "NGS (scRNA-seq)"@en,
+        "NGS （scRNA-seq）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0469" .
+
+hum:hum0470 a sio:SIO_000756 ;
+    rdfs:label "Prognostic Investigation and Genomic Profiling of Urothelial Carcinoma Treated with Immunotherapy"@en,
+        "免疫治療が施行された尿路上皮癌における予後調査とゲノムプロファイルの解明"@ja ;
+    dc:type "NGS (Exome, RNA-seq, WGS, scRNA-seq, Visium Spatial Gene Expression) Histological image"@en,
+        "NGS （Exome、RNA-seq、WGS、scRNA-seq、Visium Spatial Gene Expression） 病理画像"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0470" .
+
+hum:hum0472 a sio:SIO_000756 ;
+    rdfs:label "Non-clinical research for the development of neuronal cells from human iPS cell derived cerebral cortical organoid"@en,
+        "iPS細胞を用いた大脳皮質神経細胞製剤の開発に向けた非臨床研究"@ja ;
+    dc:type "NGS (scRNA-seq)"@en,
+        "NGS （scRNA-seq）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0472" .
+
+hum:hum0473 a sio:SIO_000756 ;
+    rdfs:label "Elucidation of the pathogenesis of hematopoietic neoplasms via genetic analysis Molecular expression analysis of bone marrow cells from hematopoietic stem cell transplant donors as a normal control"@en,
+        "造血器腫瘍患者の遺伝子解析による発症機序解明研究 血縁ドナーの微量残存骨髄液を正常コントロールとした造血器腫瘍特異的分子発現解析"@ja ;
+    dc:type "NGS (RNA-seq)"@en,
+        "NGS （RNA-seq）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0473" ;
+    rdfs:seeAlso nando:NANDO_2200019 .
+
+hum:hum0474 a sio:SIO_000756 ;
+    rdfs:label "Analysis of genes associated with autistic spectrum disorder, schizophrenia, and bipolar disorder"@en,
+        "自閉スペクトラム症・統合失調症・双極性障害関連遺伝子の解析"@ja ;
+    dc:type "NGS (Target Capture)"@en,
+        "NGS （Target Capture）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0474" .
+
+hum:hum0476 a sio:SIO_000756 ;
+    rdfs:label "Observational studies using advanced analytical techniques to understand the biological functions of kidney component cells"@en,
+        "腎臓構成細胞の生物学的機能理解のための先端的解析技術を用いた観察研究"@ja ;
+    dc:type "NGS (scRNA-seq, Visium Spatial Gene Expression) Histological image"@en,
+        "NGS （scRNA-seq、Visium Spatial Gene Expression） 病理画像"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0476" ;
+    rdfs:seeAlso nando:NANDO_1200366,
+        nando:NANDO_2200121 .
+
+hum:hum0477 a sio:SIO_000756 ;
+    rdfs:label "Tumor tissue culture and its characterization in gastrointestinal cancer"@en,
+        "消化管癌・消化管腫瘍の組織培養による癌発育・進展メカニズムに関する研究"@ja ;
+    dc:type "NGS (RNA-seq)"@en,
+        "NGS （RNA-seq）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0477" .
+
+hum:hum0479 a sio:SIO_000756 ;
+    rdfs:label "Biomarker Research for Anti EGFR Monoclonal Antibodies by Comprehensive Cancer Genomics"@en,
+        "網羅的遺伝子解析技術を用いた抗EGFR抗体薬治療効果予測バイオマーカーの探索研究に関する多施設共同研究"@ja ;
+    dc:type "NGS (Exome, Target Capture)"@en,
+        "NGS （Exome、Target Capture）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0479" .
+
+hum:hum0481 a sio:SIO_000756 ;
+    rdfs:label "Genome analysis of common diseases among older Japanese adults and development of clinical genome information storage"@en,
+        "日本人高齢者に多い疾患のゲノム解析および臨床ゲノム情報ストレージの整備"@ja ;
+    dc:type "NGS (RNA-seq)"@en,
+        "NGS （RNA-seq）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0481" .
+
+hum:hum0483 a sio:SIO_000756 ;
+    rdfs:label "Request for cooperation regarding collection and distribution of human specimens and research using clinical information"@en,
+        "ヒト試料の収集・分譲と臨床情報を利用した研究に関するご協力のお願い"@ja ;
+    dc:type "NGS (Exome, RNA-seq)"@en,
+        "NGS （Exome、RNA-seq）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0483" .
+
+hum:hum0484 a sio:SIO_000756 ;
+    rdfs:label "Banking of induced pluripotent stem cell lines (iPS cell lines) established from human somatic cells"@en,
+        "ヒト体細胞から樹立したInduced Pluripotent Stem Cell Line（iPS細胞株）のバンク事業"@ja ;
+    dc:type "NGS (WGS)"@en,
+        "NGS （WGS）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0484" ;
+    rdfs:seeAlso nando:NANDO_1200002 .
+
+hum:hum0485 a sio:SIO_000756 ;
+    rdfs:label "Genome sequencing analysis"@en,
+        "シークエンス解析によるがんゲノム研究"@ja ;
+    dc:type "NGS (WGS, RNA-seq)"@en,
+        "NGS （WGS、RNA-seq）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0485" .
+
+hum:hum0486 a sio:SIO_000756 ;
+    rdfs:label "Bile duct development and its failure mechanisms using biliary atresia and Alagille syndrome-specific iPS cells"@en,
+        "胆道閉鎖症およびアラジール症候群特異的iPS細胞を用いた胆管発生およびその障害メカニズムの解明"@ja ;
+    dc:type "NGS (WGS)"@en,
+        "NGS （WGS）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0486" ;
+    rdfs:seeAlso nando:NANDO_1200913,
+        nando:NANDO_2200930 .
+
+hum:hum0488 a sio:SIO_000756 ;
+    rdfs:label "Analysis of Mechanisms Regulating TDP-43-Related Gene Expression in Amyotrophic Lateral Sclerosis (ALS)"@en,
+        "筋萎縮性側索硬化症におけるTDP-43関連遺伝子発現制御機構の解析"@ja ;
+    dc:type "NGS (WGS, bulk RNA-seq, snRNA-seq, snATAC-seq)"@en,
+        "NGS （WGS、bulk RNA-seq、snRNA-seq、snATAC-seq）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0488" ;
+    rdfs:seeAlso nando:NANDO_1200002 .
+
+hum:hum0490 a sio:SIO_000756 ;
+    rdfs:label "An investigation into the effects of progestin on follicular development and oocyte maturation during controlled ovarian stimulation using the Progestin-Primed Ovarian Stimulation (PPOS)"@en,
+        "Progestin-primed ovarian stimulation（PPOS）法を用いた調節卵巣刺激下でプロゲスチン製剤が卵胞発育・卵子の成熟過程に及ぼす影響に関する検討"@ja ;
+    dc:type "NGS (scRNA-seq)"@en,
+        "NGS （scRNA-seq）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0490" .
+
+hum:hum0491 a sio:SIO_000756 ;
+    rdfs:label "アレルギー病態の分子機構解明"@ja ;
+    dc:type "NGS （scRNA-seq、scRNA-TCR-seq、scATAC-RNA-seq、CITE-seq）"@ja ;
+    dcterms:accessRights "非制限公開 制限（Type I）"@ja ;
+    dcterms:identifier "hum0491" .
+
+hum:hum0492 a sio:SIO_000756 ;
+    rdfs:label "Exploratory research aimed at developing new drugs for difficult-to-treat immune-inflammatory diseases through industry-academia collaboration"@en,
+        "産学連携による免疫炎症性難病の新規医薬品開発を目指した探索研究"@ja ;
+    dc:type "NGS (scRNA-seq/TCR/BCR repetoire, Visium Spatial Gene Expression) Histological image"@en,
+        "NGS （scRNA-seq/TCR/BCRレパトア解析、Visium Spatial Gene Expression） 病理画像"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0492" ;
+    rdfs:seeAlso nando:NANDO_1200279,
+        nando:NANDO_2200420 .
+
+hum:hum0493 a sio:SIO_000756 ;
+    rdfs:label "Functional analysis of skin immunocompetent cells"@en,
+        "皮膚免疫担当細胞の機能解析"@ja ;
+    dc:type "Xenium In Situ Gene Expression"@en,
+        "Xenium In Situ Gene Expression"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0493" .
+
+hum:hum0495 a sio:SIO_000756 ;
+    rdfs:label "Precision medicine for preventing stroke in patients with atrial fibrillation"@en,
+        "心房細動と合併する脳梗塞予防のプレシジョン・メディシン"@ja ;
+    dc:type "NGS (Exome) SNP-chip"@en,
+        "NGS （Exome） SNP-chip"@ja ;
+    dcterms:accessRights "Unrestricted-access Controlled-access (Type I)"@en,
+        "非制限公開 制限（Type I）"@ja ;
+    dcterms:identifier "hum0495" ;
+    rdfs:seeAlso nando:NANDO_2200226 .
+
+hum:hum0496 a sio:SIO_000756 ;
+    rdfs:label "Okinawa Bioinformation Bank Project to establish a genome analysis research center in Okinawa"@en,
+        "沖縄県におけるゲノム解析研究拠点形成のための沖縄バイオインフォメーションバンクの構築"@ja ;
+    dc:type "SNP-chip"@en,
+        "SNP-chip"@ja ;
+    dcterms:accessRights "Unrestricted-access"@en,
+        "非制限公開"@ja ;
+    dcterms:identifier "hum0496" .
+
+hum:hum0497 a sio:SIO_000756 ;
+    rdfs:label "Isolation and characterization of trophoblast stem cells from human placenta"@en,
+        "ヒト胎盤からの栄養膜幹細胞の単離と性状解析"@ja ;
+    dc:type "NGS (RNA-seq)"@en,
+        "NGS （RNA-seq）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0497" .
+
+hum:hum0499 a sio:SIO_000756 ;
+    rdfs:label "Research aimed at creating a biobank for bone and soft tissue tumors and elucidating the molecular pathology based on gene expression analysis, as well as improving prognosis"@en,
+        "骨軟部腫瘍に対するバイオバンク作成および遺伝子発現解析に基づく分子病態の解明とその予後改善を目指した研究"@ja ;
+    dc:type "Sanger-seq"@en,
+        "サンガー法"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0499" .
+
+hum:hum0501 a sio:SIO_000756 ;
+    rdfs:label "GenomeAsia 100K Project: Human DNA samples collecting and whole genome sequencing of Asian populations"@en,
+        "ゲノムアジア100Kプロジェクト：アジア集団のDNA試料収集と全ゲノム解析"@ja ;
+    dc:type "NGS (WGS)"@en,
+        "NGS （WGS）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0501" .
+
+hum:hum0502 a sio:SIO_000756 ;
+    rdfs:label "Elucidating the development of cervical cancer and identifying therapeutic targets based on cancer genome analysis"@en,
+        "体細胞ゲノム解析に基づく子宮頸がんの本態解明・治療標的の同定を目指す研究"@ja ;
+    dc:type "NGS (RNA-seq)"@en,
+        "NGS （RNA-seq）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0502" .
+
+hum:hum0505 a sio:SIO_000756 ;
+    rdfs:label "Exploratory study of genetic factors in allergic diseases"@en,
+        "アレルギー疾患における遺伝要因の探索研究"@ja ;
+    dc:type "SNP-chip"@en,
+        "SNP-chip"@ja ;
+    dcterms:accessRights "Unrestricted-access"@en,
+        "非制限公開"@ja ;
+    dcterms:identifier "hum0505" .
+
+hum:hum0508 a sio:SIO_000756 ;
+    rdfs:label "Elucidation of the pathogenesis of ocular diseases and exploration of therapeutic strategies using disease-specific iPS cells"@en,
+        "疾患特異的iPS細胞を用いた眼疾患の発症機序の解明および治療法の探索"@ja ;
+    dc:type "NGS (scRNA-seq)"@en,
+        "NGS （scRNA-seq）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0508" ;
+    rdfs:seeAlso nando:NANDO_1201001 .
+
+hum:hum0512 a sio:SIO_000756 ;
+    rdfs:label "Identification and functional analysis of risk polymorphisms in autoimmune diseases"@en,
+        "自己免疫疾患のリスク多型の同定と機能解析"@ja ;
+    dc:type "NGS (RNA-seq, ATAC-seq, scCITE-seq)"@en,
+        "NGS （RNA-seq、ATAC-seq、scCITE-seq）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0512" .
+
+hum:hum0514 a sio:SIO_000756 ;
+    rdfs:label "Analysis of skeletal muscle messenger RNA expression to elucidate pathophysiology of neuromuscular diseases"@en,
+        "骨格筋メッセンジャーRNAの発現解析による神経・筋疾患の病態解明"@ja ;
+    dc:type "NGS (RNA-seq)"@en,
+        "NGS （RNA-seq）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0514" ;
+    rdfs:seeAlso nando:NANDO_1200495,
+        nando:NANDO_2200864 .
+
+hum:hum0517 a sio:SIO_000756 ;
+    rdfs:label "Evaluation of novel therapies using primary cultured gynecological cancer cells and search for predictors of efficacy"@en,
+        "婦人科がん初代培養細胞を用いた新規治療法の評価および効果予測因子の探索"@ja ;
+    dc:type "NGS (Exome)"@en,
+        "NGS （Exome）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0517" .
+
+hum:hum0519 a sio:SIO_000756 ;
+    rdfs:label "Detailed analysis of antigen specificity in autoimmune diseases"@en,
+        "自己免疫疾患の抗原特異性の詳細解析"@ja ;
+    dc:type "NGS (scRNA-seq/TCR repetoire)"@en,
+        "NGS （scRNA-seq/TCRレパトア解析）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0519" ;
+    rdfs:seeAlso nando:NANDO_1200279,
+        nando:NANDO_2200420 .
+
+hum:hum0521 a sio:SIO_000756 ;
+    rdfs:label "Elucidation of Molecular Mechanisms of Cancer Immunity"@en,
+        "がん免疫の分子機構解明"@ja ;
+    dc:type "NGS (scRNA-seq, scBCR-seq, scTCR-seq, CITE-seq)"@en,
+        "NGS （scRNA-seq、scBCR-seq、scTCR-seq、CITE-seq）"@ja ;
+    dcterms:accessRights "Unrestricted-access Controlled-access (Type I)"@en,
+        "非制限公開 制限（Type I）"@ja ;
+    dcterms:identifier "hum0521" .
+
+hum:hum0522 a sio:SIO_000756 ;
+    rdfs:label "Immune regulation by cotrolling regulatory T cell-specific epigenome"@en,
+        "制御性T細胞特異的エピゲノム誘導による免疫制御の研究"@ja ;
+    dc:type "NGS (scRNA-seq, TCR-seq, CITE-seq)"@en,
+        "NGS （scRNA-seq、TCR-seq、CITE-seq）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0522" .
+
+hum:hum0524 a sio:SIO_000756 ;
+    rdfs:label "Somatic genome analysis research aimed at the identification of treatment targets for young-onset cancer"@en,
+        "AYA（Adolescence and Young Adult）世代がんの治療標的の同定を目指した体細胞ゲノム解析研究"@ja ;
+    dc:type "NGS (Exome, Target Capture, RNA-seq)"@en,
+        "NGS （Exome、Target Capture、RNA-seq）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0524" .
+
+hum:hum0527 a sio:SIO_000756 ;
+    rdfs:label "Genetic mutation profiling of lymphomas arising in the uterine cervix and vagina"@en,
+        "子宮頚部・腟部発生リンパ腫の遺伝子変異の検索"@ja ;
+    dc:type "NGS (Exome)"@en,
+        "NGS （Exome）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0527" .
+
+hum:hum0531 a sio:SIO_000756 ;
+    rdfs:label "Identification of Therapeutic Target Molecules in Urological Tumors by Whole-Genome Sequencing"@en,
+        "全ゲノムシークエンスによる泌尿器腫瘍の治療標的分子の同定"@ja ;
+    dc:type "NGS (Amplicon-seq, Exome, RNA-seq, scRNA-seq, Visium Spatial Gene Expression) Histological image Xenium In Situ Gene Expression"@en,
+        "NGS （Amplicon-seq、Exome、RNA-seq、scRNA-seq、Visium Spatial Gene Expression） 病理画像 Xenium In Situ Gene Expression"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0531" .
+
+hum:hum0533 a sio:SIO_000756 ;
+    rdfs:label "Comprehensive Genetic Analysis of Carcinogenesis in Hereditary Gastric Polyposis"@en,
+        "遺伝性胃ポリポーシスの発癌に関する網羅的遺伝子解析"@ja ;
+    dc:type "NGS (Exome, RNA-seq)"@en,
+        "NGS （Exome、RNA-seq）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0533" .
+
+hum:hum0535 a sio:SIO_000756 ;
+    rdfs:label "A study on the impact of skin diseases on cellular alterations in skin component cells, blood, and other organ cells"@en,
+        "皮膚疾患が皮膚構成細胞、血液、他臓器の細胞の変化に与える影響に関する探索的研究"@ja ;
+    dc:type "NGS (ATAC-seq)"@en,
+        "NGS （ATAC-seq）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0535" .
+
+hum:hum0536 a sio:SIO_000756 ;
+    rdfs:label "Genomic Analysis and Exploration of Therapeutic Targets in Malignant Pleural Mesothelioma and Related Diseases"@en,
+        "悪性胸膜中皮腫と関連疾患におけるゲノミクス解析と治療標的の探索"@ja ;
+    dc:type "NGS (WGS, scRNA-seq, ATAC-seq)"@en,
+        "NGS （WGS、scRNA-seq、ATAC-seq）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0536" .
+
+hum:hum0542 a sio:SIO_000756 ;
+    rdfs:label "Studies on establishment of germline DNA methylation"@en,
+        "生殖細胞DNAメチル化確立に関する研究"@ja ;
+    dc:type "NGS (scWGBS)"@en,
+        "NGS （scWGBS）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0542" .
+
+hum:hum0544 a sio:SIO_000756 ;
+    rdfs:label "Research on human spermatogenesis and establishment of iPS cells"@en,
+        "ヒト精子形成の研究とiPS細胞の樹立"@ja ;
+    dc:type "NGS (scWGBS)"@en,
+        "NGS （scWGBS）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0544" .
+
+hum:hum0548 a sio:SIO_000756 ;
+    rdfs:label "Development of New Diagnostics, Therapeutics, and Prevention Methods for Personalized Medicine Based on Comprehensive Cancer-Related Gene Exome Analysis and Information Analysis Using Cancer Specimens Stored in TMDU Biobank."@en,
+        "TMDUバイオリソースセンター保管のがん検体を用いた網羅的がん関連遺伝子エキソーム解析とその情報解析に基づく個別化医療に資する新たな診断、治療、予防法の開発"@ja ;
+    dc:type "NGS (Target Capture, RNA-seq)"@en,
+        "NGS （Target Capture、RNA-seq）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0548" .
+
+hum:hum0551 a sio:SIO_000756 ;
+    rdfs:label "Development of a prediction method for allergic diseases and allergen responsiveness using patients cohorts and general population cohorts"@en,
+        "疾患コホートと一般コホート研究の組み合わせによるアレルギー疾患発症ならびにアレルゲン免疫応答を予測するためのゲノム基盤構築"@ja ;
+    dc:type "SNP-chip"@en,
+        "SNP-chip"@ja ;
+    dcterms:accessRights "Unrestricted-access"@en,
+        "非制限公開"@ja ;
+    dcterms:identifier "hum0551" .
+
+hum:hum0552 a sio:SIO_000756 ;
+    rdfs:label "Study to elucidate the association between clonal hematopoiesis and abdominal aortic aneurysm"@en,
+        "クローン性造血と腹部大動脈瘤との関連を解明する研究"@ja ;
+    dc:type "NGS (Target Capture)"@en,
+        "NGS （Target Capture）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0552" ;
+    rdfs:seeAlso nando:NANDO_2200294 .
+
+hum:hum0555 a sio:SIO_000756 ;
+    rdfs:label "A rare case of uterine carcinosarcoma with hereditary breast and ovarian cancer syndrome"@en,
+        "稀な子宮癌肉腫を発症した遺伝性乳癌卵巣癌症候群の一例"@ja ;
+    dc:type "NGS (Target Capture)"@en,
+        "NGS （Target Capture）"@ja ;
+    dcterms:accessRights "Controlled-access (Type I)"@en,
+        "制限（Type I）"@ja ;
+    dcterms:identifier "hum0555" .
+
